@@ -1,0 +1,41 @@
+.main
+{
+    height:70px;
+    background:white;
+    display: flex;
+    border-bottom: 5px solid #f27300;
+    width: 90%;
+    justify-content: center;
+    margin-left: 90px;
+}
+.main-compo
+{
+    display: flex;
+    list-style: none;
+     text-align: center;
+    font-size: 20px;
+    margin-right:1100px;
+    
+}
+.main-compo a 
+{
+    color: black;
+    text-decoration: none;
+    margin:13px;
+    text-align: center;
+    margin-top: 1.3rem;
+    /* border-radius: 5px; */
+    
+    /* padding: 2px 19px; */
+}
+.main-compo a:hover{
+    border-top: 3px solid #f27300;
+}
+.seacrh-icon
+{
+    margin-top: 25px;
+}
+.seacrh-icon:hover
+{
+    border-top: 3px solid #f27300;
+}
