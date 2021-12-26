@@ -2,7 +2,7 @@ import React from "react";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
-import Navbar from './components/header/componant/Navbar';
+import Footer from "./components/footer/Footer";
 const AllRoutes = () => {
   return (
     <Router>
@@ -12,6 +12,7 @@ const AllRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<Home />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 };
