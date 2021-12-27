@@ -1,4 +1,5 @@
 import React from 'react'
+import "./sidebar.css"
 import { FaSearch } from "react-icons/fa";
 const Sidebar = () => {
     return (
