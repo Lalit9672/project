@@ -20,11 +20,6 @@ const AllRoutes = () => {
         </Routes>
         <Sidebar />
       </div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<Home />} />
-        <Route path="/about/introduction" element={<Introduction />} />
-      </Routes>
 
       <Footer />
     </Router>
