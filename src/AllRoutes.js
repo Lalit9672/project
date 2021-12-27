@@ -8,15 +8,25 @@ import Sidebar from "./components/Sidebar.js/Sidebar";
 const AllRoutes = () => {
   return (
     <Router>
-     
-     <Header/>
+      <Header />
+
+      <div
+        style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }}
+      >
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<Home />} />
+          <Route path="/about/introduction" element={<Introduction />} />
+        </Routes>
+        <Sidebar />
+      </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Home />} />
         <Route path="/about/introduction" element={<Introduction />} />
       </Routes>
-      <Sidebar/>
-      <Footer/>
+
+      <Footer />
     </Router>
   );
 };
