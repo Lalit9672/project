@@ -1,4 +1,5 @@
 import React from "react";
+import "./home.css"
 
 const Home = () => {
   return (
@@ -38,11 +39,11 @@ const Home = () => {
             </p>
             <hr/>
 
-            <img src="./01.png" alt="Image"/>
+            <img src="https://jir.mewaruniversity.org/wp-content/uploads/2021/02/magazinefront-768x259.png" alt="Image"/>
             <div className="mainbtn">
                 <a href="https://www.aravalieducation.org/"><button className="btn">Get All Issue for Student</button></a>
                 <hr/>
-                <img src="./012.jpg" alt="pk" className="img2"/>
+                <img src="https://jir.mewaruniversity.org/wp-content/uploads/2021/09/Jir-Vol-9-Issue-12.jpg" alt="pk" className="img2"/>
             </div>
             <div className="bot">
                 <a href="https://www.aravalieducation.org/">https://www.aravalieducation.org/</a>
@@ -50,7 +51,7 @@ const Home = () => {
         </div>
     </div>
 
-        <div className="rightside">
+        {/* <div className="rightside">
             <div className="searchdiv">
                 <h3>SEARCH VOLUME/ISSUE/RESEARCH PAPER</h3>
                 <input type="text"/>
@@ -67,13 +68,13 @@ const Home = () => {
                     </p>
                 </div>
             </div>
-        </div>
+        </div> */}
     
     </div>
 
-    <header id="bottombar">
+    {/* <header id="bottombar">
         <p>Copytighy @ Journal of Indian Research | Powered By JIR Team</p>
-    </header>
+    </header> */}
 </>
   );
 };
