@@ -4,6 +4,10 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
 import Introduction from "./components/about/Introduction";
+import MissionAndVision from "./components/about/MissionAndVision";
+import Objectives from "./components/about/Objectives";
+
+
 const AllRoutes = () => {
   return (
     <Router>
@@ -13,6 +17,8 @@ const AllRoutes = () => {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<Home />} />
         <Route path="/about/introduction" element={<Introduction />} />
+        <Route path="/about/MissionAndVision" element={<MissionAndVision/>} />
+        <Route path="/about/Objectives" element={<Objectives/>} />
       </Routes>
       <Footer/>
     </Router>
