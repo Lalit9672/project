@@ -6,6 +6,7 @@ const Home = () => {
     <>
       <div className="blog">
         <div className="leftside">
+<h1>Hello guys</h1>
           <h1>Welcome to Journal of Indian Research</h1>
           <p>
             The Journal of Indian Research (JIR) (ISSN: (Online) 2321 -4155) is
