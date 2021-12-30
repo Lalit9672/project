@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./home.css";
 
 const Home = () => {
@@ -14,7 +15,15 @@ const Home = () => {
             drawn from all disciplines.
           </p>
 
-          <div className="slidebar"></div>
+          {/* Slidebar Start */}
+          <div className="slidebar">
+            <div className="slides">
+              <button className="left-btn"><FontAwesomeIcon icon="fa-solid fa-angle-left" /></button>
+              <button className="right-btn"><FontAwesomeIcon icon="fa-solid fa-angle-right" /></button>
+            </div>
+          </div>
+
+          {/* Slidebar End */}
 
           <div className="middle-div">
             <p>
@@ -32,10 +41,8 @@ const Home = () => {
             </a>
 
             <p>
-              <b>Publisher :</b> Mewar University, Gangrar, Chittorgarh,
-              Rajasthan <br />
-              <b>Printers :</b> M.K. Printers, 5459, New Chandrawal, Kamla
-              Nagar, Delhi-110007 <br />
+              <b>Publisher :</b> Mewar University, Gangrar, Chittorgarh, Rajasthan <br />
+              <b>Printers :</b> M.K. Printers, 5459, New Chandrawal, Kamla Nagar, Delhi-110007 <br />
               <b>Copyright © Authors. All rights reserved.</b> Authors are
               responsible for obtaining permission to reproduce copyright
               material from other sources. The Publisher assumes no
@@ -47,11 +54,11 @@ const Home = () => {
 
             <img
               src="https://jir.mewaruniversity.org/wp-content/uploads/2021/02/magazinefront-768x259.png"
-              alt="Image"
+              alt="Image-2"
             />
             <div className="mainbtn">
               <a href="https://www.aravalieducation.org/">
-                <button className="btn">Get All Issue for Student</button>
+                <button className="btn">Get All Issue for JIR</button>
               </a>
               <hr />
               <img

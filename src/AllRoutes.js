@@ -4,6 +4,8 @@ import Header from "./components/header/Header";
 import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
 import Introduction from "./components/about/Introduction";
+import Objectives from "./components/about/Objectives";
+import MissionAndVision from "./components/about/MissionAndVision";
 import Sidebar from "./components/Sidebar.js/Sidebar";
 const AllRoutes = () => {
   return (
@@ -17,6 +19,8 @@ const AllRoutes = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<Home />} />
           <Route path="/about/introduction" element={<Introduction />} />
+          <Route path="/about/Objectives" element={<Objectives />} />
+          <Route path="/about/MissionAndVision" element={<MissionAndVision />} />
         </Routes>
         <Sidebar />
       </div>
