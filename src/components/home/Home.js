@@ -32,10 +32,8 @@ const Home = () => {
             </a>
 
             <p>
-              <b>Publisher :</b> Mewar University, Gangrar, Chittorgarh,
-              Rajasthan <br />
-              <b>Printers :</b> M.K. Printers, 5459, New Chandrawal, Kamla
-              Nagar, Delhi-110007 <br />
+              <b>Publisher :</b> Mewar University, Gangrar, Chittorgarh, Rajasthan <br />
+              <b>Printers :</b> M.K. Printers, 5459, New Chandrawal, Kamla Nagar, Delhi-110007 <br />
               <b>Copyright © Authors. All rights reserved.</b> Authors are
               responsible for obtaining permission to reproduce copyright
               material from other sources. The Publisher assumes no
