@@ -17,3 +17,14 @@
     text-align: center;
     margin: 10px;
 }
+
+@media only screen and (max-width: 800px){
+    .footer{
+        padding: 8px;
+    }
+    
+    .footer h3{
+        margin: 6px;
+        font-size: 15px;
+    }
+}
