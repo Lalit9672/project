@@ -14,8 +14,10 @@ const AllRoutes = () => {
     <Router>
 
      <Header/>
-      <div style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }}>
-        <Sidebar>
+      <div 
+        style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }}
+      >
+    
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<Home />} />
@@ -23,7 +25,7 @@ const AllRoutes = () => {
           <Route path="/about/MissionAndVision" element={<MissionAndVision/>} />
           <Route path="/about/Objectives" element={<Objectives/>} />
         </Routes>
-        </Sidebar>
+
       </div>
      <Footer/>
     </Router>
