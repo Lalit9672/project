@@ -3,9 +3,10 @@ import "./footer.css"
 
 const Footer = () => {
     return (
-        <>
-          <div className='footer'>
-            <h1>Copytighy @ Journal of Indian Research | Powered By JIR Team</h1>  
+        <>  <div className='footr'>
+            <div className='footer'>
+            <h3>Copytighy @ Journal of Indian Research | Powered By JIR Team</h3>  
+           </div>
            </div>  
         </>
     )

@@ -5,18 +5,16 @@
     display: flex;
     border-bottom: 5px solid #f27300;
     width: 90%;
-    justify-content: space-between;
+    justify-content: center;
     margin-left: 90px;
-    
 }
 .main-compo
 {
-    padding-top: 20px;
+    display: flex;
     list-style: none;
      text-align: center;
     font-size: 20px;
-   
-    /* margin-right:1090px; */
+    margin-right:1090px;
     
 }
 .main-compo a 
@@ -36,10 +34,6 @@
 .seacrh-icon
 {
     margin-top: 25px;
-    display: flex;
-    justify-content: end;
-  
-  
 }
 .seacrh-icon:hover
 {

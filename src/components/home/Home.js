@@ -6,7 +6,6 @@ const Home = () => {
     <>
       <div className="blog">
         <div className="leftside">
-<h1>Hello guys</h1>
           <h1>Welcome to Journal of Indian Research</h1>
           <p>
             The Journal of Indian Research (JIR) (ISSN: (Online) 2321 -4155) is
@@ -33,10 +32,8 @@ const Home = () => {
             </a>
 
             <p>
-              <b>Publisher :</b> Mewar University, Gangrar, Chittorgarh,
-              Rajasthan <br />
-              <b>Printers :</b> M.K. Printers, 5459, New Chandrawal, Kamla
-              Nagar, Delhi-110007 <br />
+              <b>Publisher :</b> Mewar University, Gangrar, Chittorgarh, Rajasthan <br />
+              <b>Printers :</b> M.K. Printers, 5459, New Chandrawal, Kamla Nagar, Delhi-110007 <br />
               <b>Copyright © Authors. All rights reserved.</b> Authors are
               responsible for obtaining permission to reproduce copyright
               material from other sources. The Publisher assumes no
