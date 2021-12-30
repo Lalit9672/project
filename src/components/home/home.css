@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body{
+    margin: 10px 10%;
+    background-color: lightgrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+/* ---------left side---------- */
+.blog{
+    display: flex;
+    background-color: white;
+    margin-left: 50px;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.leftside{
+    padding-top: 50px;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.leftside h2{
+    padding-left: 20px 0px 10px;
+    font-size: 36px;
+}
+
+.leftside p{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    color: #ff6900;
+}
+
+/*------------- image slider----------- */
+/* .slidebar{
+    background-image: url('./img1.jpg');
+    width: 100%;
+    height: 150px;
+    animation: slider 25s infinite linear;
+} */
+
+/* @keyframes slider {
+    0%{background-image: url('./img\ \(1\).jpg');}
+    25%{background-image: url('./img\ \(2\).jpg');}
+    50%{background-image: url('./img\ \(3\).jpg');}
+    75%{background-image: url('./img\ \(4\).jpg');}
+} */
+
+/* -------image slider end --------*/
+
+.middle-div p {
+    font-size: 18px;
+    text-align: justify;
+    color: #202020;
+    margin: 10px;
+}
+
+.middle-div a {
+    margin-left: 10px;
+    color: #ff6900;
+    font-size: 17.5px;
+}
+
+.middle-div hr{
+    margin: 5px;
+    background-color: #ff6900;
+}
+
+.middle-div img{
+    max-width: 100%;
+    height: auto;
+}
+
+.mainbtn a{
+    display: flex;
+    justify-content: center;
+}
+
+.middle-div button{
+    overflow: auto;
+    margin: 14px 24px;
+    padding: 14px 24px;
+    background-color: #ff6900;
+    color: white;
+    width: 95%;
+    border-radius: 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.middle-div img{
+    overflow: hidden;
+}
+
+.img2{
+    padding-left: 10%;
+}
+
+.bot{
+    margin: 10px 2px;
+    padding-left: 10%;
+}
+
+/* ------bottom bar------- */
+
+#bottombar{
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #ff6900;
+    color: white;
+    font-size: 16px;
+}
+
+#bottombar p{
+    margin: 5px;
+}
+
+
