@@ -8,7 +8,7 @@ const Editors = () => {
       <div class="blog">
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="project\public\img\chairman-sir.jpg" alt="" />
+            <img src="./../../public/img/chairman-sir.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">

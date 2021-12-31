@@ -18,10 +18,10 @@ const AllRoutes = () => {
   return (
     <Router>
       <Header />
-
-      <div
-        style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }}
-      >
+      <div className="respo">
+        {/* style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }} */}
+        
+    
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<Home />} />
@@ -33,13 +33,13 @@ const AllRoutes = () => {
           <Route path="/Editor/message-of-ethical-committee-chairman" element={<Vicecanceler/>} />
           <Route path="/Editor/editors-message" element={<Editorsmessage/>} />
           <Route path="/Editor/associate-editors-message" element={<Associate/>} />
+          <Route path="/about/MissionAndVision" element={<MissionAndVision/>} />
+          <Route path="/about/Objectives" element={<Objectives/>} />
         </Routes>
         <Sidebar />
       </div>
-
-      <Footer />
+      <Footer/>
     </Router>
   );
 };
-
 export default AllRoutes;
