@@ -7,6 +7,13 @@ import Introduction from "./components/about/Introduction";
 import Objectives from "./components/about/Objectives";
 import MissionAndVision from "./components/about/MissionAndVision";
 import Sidebar from "./components/Sidebar.js/Sidebar";
+import Editor from "./components/Editor/Editors";
+import Chairman from "./components/Editor/Chairman";
+import Vicecanceler from "./components/Editor/Vicecanceler";
+import Editorsmessage from "./components/Editor/Editorsmessage";
+import Associate from "./components/Editor/Associate";
+
+
 const AllRoutes = () => {
   return (
     <Router>
@@ -21,6 +28,11 @@ const AllRoutes = () => {
           <Route path="/about/introduction" element={<Introduction />} />
           <Route path="/about/Objectives" element={<Objectives />} />
           <Route path="/about/MissionAndVision" element={<MissionAndVision />} />
+          <Route path="/Editor/Editor" element={<Editor />} />
+          <Route path="/Editor/chairepersons-message" element={<Chairman />} />
+          <Route path="/Editor/message-of-ethical-committee-chairman" element={<Vicecanceler/>} />
+          <Route path="/Editor/editors-message" element={<Editorsmessage/>} />
+          <Route path="/Editor/associate-editors-message" element={<Associate/>} />
         </Routes>
         <Sidebar />
       </div>
