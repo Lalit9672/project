@@ -21,6 +21,7 @@ const AllRoutes = () => {
           <Route path="/about/introduction" element={<Introduction />} />
           <Route path="/about/Objectives" element={<Objectives />} />
           <Route path="/about/MissionAndVision" element={<MissionAndVision />} />
+          
         </Routes>
         <Sidebar />
       </div>

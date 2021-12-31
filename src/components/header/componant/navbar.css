@@ -86,7 +86,8 @@
 
 
 }
-@media screen and (max-width:955px)
+}
+@media screen and (max-width:951px)
 {
     .navbar
 {
@@ -96,10 +97,34 @@
     border-top: 3px solid #f27300;
     width: 100%;
     justify-content: center;
+    margin-left: 0;
 }
     .nav-items
     {
         display: none;
     }
+    .nav-link-mobileView
+    {
+        position: absolute;
+        top:60px;
+        left: 0;
+        height:600px;
+        width: 100%;
+        background-color: black;
+        color: white;
+        
+    }
+    .nav-link-mobileView a
+    {
+        color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 2rem;
+    
+    display: flex;
+    flex-direction:row ;
+    }
+    
+
 }
-}
+
