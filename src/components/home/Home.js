@@ -1,4 +1,6 @@
 import React from "react";
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./home.css";
 
 const Home = () => {
@@ -14,7 +16,16 @@ const Home = () => {
             drawn from all disciplines.
           </p>
 
-          <div className="slidebar"></div>
+          {/* Slidebar Start */}
+          <div className="slidebar">
+            <div className="slides">
+              {/* <faC  width={20} height={20} icon={"facebook"} />
+              <FontAwesomeIcon icon="fa-solid fa-angle-right" /> */}
+              <FontAwesomeIcon icon={faCoffee}/>
+            </div>
+          </div>
+
+          {/* Slidebar End */}
 
           <div className="middle-div">
             <p>
@@ -45,11 +56,11 @@ const Home = () => {
 
             <img
               src="https://jir.mewaruniversity.org/wp-content/uploads/2021/02/magazinefront-768x259.png"
-              alt="Image"
+              alt="Image-2"
             />
             <div className="mainbtn">
               <a href="https://www.aravalieducation.org/">
-                <button className="btn">Get All Issue for Student</button>
+                <button className="btn">Get All Issue for JIR</button>
               </a>
               <hr />
               <img

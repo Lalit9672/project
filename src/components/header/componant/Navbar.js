@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useRef } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 import { navItems } from "./Navitems";
@@ -6,13 +6,15 @@ import Dropdown from "./Dropdown";
 import Guidlinesdrop from "./Guidlinesdrop";
 import Volumedrop from "./Volumedrop";
 import Editordrop from './Editordrop';
-import { FaAngleDown } from "react-icons/fa";
+import { FaAngleDown,FaAlignJustify } from "react-icons/fa";
 
 const Navbar = () => {
+  const menuRef=useRef();
   const [dropdown, setDrrodown] = useState(false);
   const [guidlinesdrop, setGuidline] = useState(false);
   const [volume, setVolume] = useState(false);
   const[editor,setEditor]=useState(false)
+  const [isMobile,setIsMobile]=useState(false);
   return (
     <>
       <nav className="navbar">
@@ -76,7 +78,10 @@ const Navbar = () => {
               </li>
             );
           })}
+
         </ul>
+        
+        
       </nav>
     </>
   );
