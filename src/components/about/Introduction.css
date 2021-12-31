@@ -1,4 +1,4 @@
-h1{
+h1 .Title{
     word-wrap: break-word;
     font-weight: 700;
     color: #000;
@@ -6,23 +6,36 @@ h1{
     
 }
 
-h1{
+h1 .Title{
     font-size: 36px;
 }
 
-h1{
+h1 .Title{
     margin-top: 20px;
     margin-bottom: 10px;
+    
 }
-div{
+div .entry-content{
     display:block;
-
+    line-height: 1.8;
+    margin-right:30px ;
+    /* margin-left: 30px; */
 }
 *{
     box-sizing: border-box;
 }
-p{
+p .content-page{
     color: #202020;
-    font-size:15px;
+    font-size:20px;
     margin: 0px 0px 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+div .main-content-about{
+    margin-left: 30px;
 }

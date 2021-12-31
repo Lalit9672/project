@@ -1,5 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import "./home.css";
 
 const Home = () => {
@@ -18,8 +18,8 @@ const Home = () => {
           {/* Slidebar Start */}
           <div className="slidebar">
             <div className="slides">
-              <button className="left-btn"><FontAwesomeIcon icon="fa-solid fa-angle-left" /></button>
-              <button className="right-btn"><FontAwesomeIcon icon="fa-solid fa-angle-right" /></button>
+              <button className="left-btn"><FaAngleLeft/></button>
+              <button className="right-btn"><FaAngleRight/></button>
             </div>
           </div>
 
