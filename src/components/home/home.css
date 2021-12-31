@@ -120,10 +120,10 @@
     margin: 5px;
 }
 
-
+/* ============================================================================== */
 /* --------------------media query------------------- */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (min-width : 450px) {
     .blog{
         margin-left: 5px;   
     }
@@ -207,3 +207,31 @@
         padding-left: 2%;
     }
 }
+
+/* ====================================================================================== */
+/* -----------------------------media query------------------------------------------- */
+
+@media only screen and (max-width: 450px) and (min-width : 250px){
+    .blog{
+        margin-left: 1px;   
+    }
+
+    .leftside{
+        padding-top: 20px;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .leftside h1{
+        font-size: 25px;
+    }
+
+    .middle-div button{
+        overflow: auto;
+        margin: 6px 10px;
+        padding: 6px 10px;
+        width: 96%;
+        border-radius: 25px;
+        font-size: 8px;
+    }
+} 

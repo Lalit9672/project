@@ -7,14 +7,15 @@ import Introduction from "./components/about/Introduction";
 import Objectives from "./components/about/Objectives";
 import MissionAndVision from "./components/about/MissionAndVision";
 import Sidebar from "./components/Sidebar.js/Sidebar";
+
 const AllRoutes = () => {
   return (
     <Router>
       <Header />
 
-      <div
-        style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }}
-      >
+      <div className="respo">
+        {/* // style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }} */}
+        
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<Home />} />

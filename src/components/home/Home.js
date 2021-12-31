@@ -1,4 +1,5 @@
 import React from "react";
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./home.css";
 
@@ -18,8 +19,9 @@ const Home = () => {
           {/* Slidebar Start */}
           <div className="slidebar">
             <div className="slides">
-              <button className="left-btn"><FontAwesomeIcon icon="fa-solid fa-angle-left" /></button>
-              <button className="right-btn"><FontAwesomeIcon icon="fa-solid fa-angle-right" /></button>
+              {/* <faC  width={20} height={20} icon={"facebook"} />
+              <FontAwesomeIcon icon="fa-solid fa-angle-right" /> */}
+              <FontAwesomeIcon icon={faCoffee}/>
             </div>
           </div>
 
