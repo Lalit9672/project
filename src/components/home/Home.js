@@ -1,6 +1,6 @@
 import React from "react";
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import "./home.css";
 
 const Home = () => {
@@ -21,7 +21,7 @@ const Home = () => {
             <div className="slides">
               {/* <faC  width={20} height={20} icon={"facebook"} />
               <FontAwesomeIcon icon="fa-solid fa-angle-right" /> */}
-              <FontAwesomeIcon icon={faCoffee}/>
+              {/* <FontAwesomeIcon icon={faCoffee}/> */}
             </div>
           </div>
 
