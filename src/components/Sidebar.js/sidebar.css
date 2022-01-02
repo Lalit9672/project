@@ -1,28 +1,26 @@
 .respo{
     display: flex;
-    padding-right: 70px;
-    padding-left: 70px;
 }
 
 .rightside{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 5px;
+    padding: 0.8rem;
 }
 
 .searchdiv{
-    padding: 10px;
-    margin-top: 70px;
-    margin-right: 10px;
-    width: 95%;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    width: 90%;
     height: 250px;
     border: 1px solid grey;
 }
 
 .searchdiv h3{
     background-color: #ff6900;
-    font-size: 16px;
+    font-size: 15px;
     color: white;
     padding: 10px 20px;    
 }
@@ -33,27 +31,27 @@
 }
 
 .searchdiv input{
-    margin-top: 10px;
-    margin-left: 15px;
-    padding: 6px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0.4rem;
     font-size: 16px;
 }
 
 .searchdiv button{
-    border-radius: 2px;
+    border-radius: 1px;
     font-size: 16px;
-    padding: 6px;
-    margin-top: 10px;
+    padding: 0.4rem;
+    margin-top: 1rem;
     background-color: #ff6900;
     color: white;
 }
 
 #news{
-    padding: 10px;
-    margin-top: 70px;
-    margin-right: 10px;
-    width: 95%;
-    height: 350px;
+    padding: 1rem;
+    margin-top: 4rem;
+    margin-right: 0.5rem;
+    width: 90%;
+    height: 320px;
     border: 1px solid grey;
 }
 
@@ -74,162 +72,124 @@
 }
 
 #news p{
-    margin: 10px;
+    margin: 0.8rem;
 }
 
-@media screen and (max-width: 1000px) and (min-width : 450px){
+@media screen and (max-width: 1100px) and (min-width : 800px){
     .respo{
         display: block;
     }
 
     .rightside{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        padding: 5px;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 2rem;
     }
     
     .searchdiv{
-        padding: 10px;
-        margin-top: 70px;
-        margin-right: 10px;
-        width: 95%;
-        height: 200px;
-        border: 1px solid grey;
+        width: 96%;
+        }
+    
+    .searchdiv h3{
+        padding: 0.6rem 1.5rem;    
+    }
+    
+    .searchdiv hr{
+        margin: 4px;
+        background-color: grey;   
+    }
+    
+    .searchdiv input{
+        margin-top: 1rem;
+        margin-left: 1rem;
+        padding: 0.5rem;
+        font-size: 16px;
+    }
+    
+    .searchdiv button{
+        font-size: 16px;
+        padding: 0.6rem;
+        margin-top: 1rem;
+        background-color: #ff6900;
+        color: white;
+        border-style: none;
+    }
+    
+    #news{
+        margin-top: 2rem;
+        width: 96%;
+        height: 250px;
+    }
+
+    #news a{
+        color: #ff6900;
+        margin-left: 1.8rem;
+    }
+    
+    #news p{
+        margin: 0.8rem;
+        margin-left: 2.2rem;
+    }
+}
+
+
+@media screen and (max-width: 799px) and (min-width : 600px){
+    .respo{
+        display: block;
+    }
+    
+    .rightside{
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .searchdiv{
+        margin-top: 0.5rem;
+    }
+    
+    #news{
+        margin-top: 1.5rem;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 599px){
+    .respo{
+        display: block;
+    }
+
+    .rightside{
+        justify-content: center;
+        align-items: center;
+        padding: 0.1rem;
+    }
+    
+    .searchdiv{
+        margin-top: 0.5rem;
     }
     
     .searchdiv h3{
-        background-color: #ff6900;
-        font-size: 16px;
-        color: white;
+        font-size: 12px;
         padding: 10px 20px;    
     }
     
-    .searchdiv hr{
-        margin: -5px;
-        background-color: grey;   
-    }
-    
     .searchdiv input{
-        margin-top: 20px;
-        margin-left: 20px;
-        padding: 6px;
-        font-size: 16px;
-    }
-    
-    .searchdiv button{
-        border-radius: 2px;
-        font-size: 16px;
-        padding: 6px;
-        margin-top: 10px;
-        background-color: #ff6900;
-        color: white;
-    }
-    
-    #news{
-        padding: 10px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-right: 10px;
-        width: 95%;
-        height: 300px;
-        border: 1px solid grey;
-    }
-    
-    #news h3{
-        background-color: #ff6900;
-        font-size: 16px;
-        color: white;
-        padding: 10px 20px;
-    }
-    
-    #news hr{
-        margin: -2px;
-        background-color: grey;
-    }
-    
-    #news p{
-        margin: 35px;
-        margin-left: 10px;
-    }
-}
-
-/* ======================================================================== */
-/* --------------------------media query-------------------------------- */
-@media screen and (max-width: 450px) and (min-width : 250px){
-    .respo{
-        display: block;
-    }
-
-    .rightside{
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        padding: 1px;
-    }
-    
-    .searchdiv{
-        padding: 6px;
-        margin-top: 10px;
-        margin-right: 1px;
-        width: 95%;
-        height: 100px;
-        border: 1px solid grey;
-    }
-    
-    .searchdiv h3{
-        background-color: #ff6900;
-        font-size: 8px;
-        color: white;
-        padding: 8px 6px;    
-    }
-    
-    .searchdiv hr{
-        margin: -8px;
-        background-color: grey;   
-    }
-    
-    .searchdiv input{
-        margin-top: 10px;
-        margin-left: 10px;
-        padding: 2px;
+        margin-left: 0.5rem;
+        padding: 0.4rem;
         font-size: 12px;
     }
     
     .searchdiv button{
-        border-radius: 2px;
+        border-radius: 1px;
         font-size: 12px;
-        padding: 2px;
-        margin-top: 15px;
-        background-color: #ff6900;
-        color: white;
     }
     
     #news{
-        padding: 10px;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-right: 10px;
-        width: 95%;
-        height: 300px;
-        border: 1px solid grey;
+        margin-top: 1rem;
     }
     
     #news h3{
-        background-color: #ff6900;
-        font-size: 16px;
-        color: white;
-        padding: 10px 20px;
+        font-size: 12px;
     }
-    
-    #news hr{
-        margin: -5px;
-        background-color: grey;
-    }
-    
-    #news p{
-        margin: 25px;
-        margin-left: 8px;
-    }
-}
 
+}
