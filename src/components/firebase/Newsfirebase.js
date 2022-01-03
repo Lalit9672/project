@@ -1,5 +1,6 @@
 import React , { Component } from "react"
-import fire from "./Sidebar/fire";
+import fire from "./fire";
+import "./Newsfirebase.css"
 
 class Newsfirebase extends Component{
 
@@ -26,12 +27,15 @@ class Newsfirebase extends Component{
 
     render(){
         return(
+            <>
+            <div className="news_section">
             <div className="news_input">
             <input type="text" onChange={this.handletext} id="inputText" placeholder="News" name="News"/>
             <br/>
             <button onClick={this.handleSubmit} >submit</button>
             </div>
-        
+            </div>
+            </>
         );
     }
 }

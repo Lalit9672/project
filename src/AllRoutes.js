@@ -13,6 +13,7 @@ import Chairman from "./components/Editor/Chairman";
 import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
+import Newsfirebase from "./components/firebase/Newsfirebase"
 
 
 const AllRoutes = () => {
@@ -38,6 +39,8 @@ const AllRoutes = () => {
           <Route path="/Editor/associate-editors-message" element={<Associate/>} />
           <Route path="/about/MissionAndVision" element={<MissionAndVision/>} />
           <Route path="/about/Objectives" element={<Objectives/>} />
+          <Route path="/firebase" element={<Home/>}/>
+          <Route path="/firebase/Newsfirebase" element={<Newsfirebase/>}/>
         </Routes>
         <Sidebar />
       </div>
