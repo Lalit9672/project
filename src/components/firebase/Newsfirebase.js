@@ -30,9 +30,9 @@ class Newsfirebase extends Component{
             <>
             <div className="news_section">
             <div className="news_input">
+            <h2>Update news</h2>
             <input type="text" onChange={this.handletext} id="inputText" placeholder="News" name="News"/>
-            <br/>
-            <button onClick={this.handleSubmit} >submit</button>
+            <button onClick={this.handleSubmit} >Submit</button>
             </div>
             </div>
             </>
