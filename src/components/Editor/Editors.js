@@ -4,11 +4,10 @@ import "./editor.css";
 const Editors = () => {
   return (
     <div>
-      
       <div class="blog">
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="./../../public/img/chairman-sir.jpg" alt="" />
+            <img src="/img/a.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
@@ -169,7 +168,7 @@ const Editors = () => {
                 <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
               </span>
             </div>
-          </div>  
+          </div>
         </div>
 
         <div class="blog-post">
@@ -183,7 +182,8 @@ const Editors = () => {
                 <br /> M. Tech. (France)
                 <br />
                 <br />
-                HoD EE, Associate Professor, Electronic & Communication Engineering, Mewar University
+                HoD EE, Associate Professor, Electronic & Communication
+                Engineering, Mewar University
                 <br />
                 <br />
                 Phone: 9891****93
