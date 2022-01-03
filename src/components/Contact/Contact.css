@@ -8,21 +8,26 @@
     padding-right: 30px;
 }
 article{
-    clear: none;
     float: left;
     margin-bottom: 10px;
     width: 100%;
-    display: block;
+    /* display: block; */
+}
+
+article{
+    clear: none;
 }
 
 .body{
+    /* display: flex;
+    flex-shrink: 2; */
     font-family: "Calibri Light";
     font-size: 15px;
     font-weight: 400;
     color: #202020;
     line-height: 1.8;
     word-wrap: break-word;
-    width: max-content;
+    /* width: 100%; */
 
 } 
 .contact-title{
@@ -40,17 +45,16 @@ article{
 .contact-title{
     margin-top: 20px;
     margin-bottom: 10px;
+    display: flex;
+    flex-shrink: 2;
 }
 .contact-title{
     line-height: 1.1;
 }
 
 .contact-title{
-    margin-right: 0px;
-    margin-left: 0px;
-}
-.contact-title{
-    display: block;
+    display: flex;
+    flex-shrink: 2;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
@@ -62,8 +66,7 @@ table{
     display: table;
     text-indent: initial;
     border-color: grey;
-    -webkit-border-horizontal-spacing: 0px;
-    -webkit-border-vertical-spacing: 0px;
+
 }
 
 
@@ -124,18 +127,11 @@ figure {
     width: 100%;
 }
 
-@media only screen and (max-width:50%)
-{
+@media only screen and (max-width:75%){
     table{
-        width: 100%;
+        width: max-content;
     }
 }
 
-@media only screen and (max-width:480px)
-{
-    table{
-        width: 100%;
-    }
-}
 
 

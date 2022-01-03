@@ -1,15 +1,11 @@
 import React from "react";
-<<<<<<< HEAD
 // import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-=======
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
->>>>>>> ddcb031f7f62f0ceaf9eeb6809d049467c9588a7
 import "./home.css";
 
 const Home = () => {
   return (
-    <>
       <div className="blog">
         <div className="leftside">
           <h1>Welcome to Journal of Indian Research</h1>
@@ -23,14 +19,11 @@ const Home = () => {
           {/* Slidebar Start */}
           <div className="slidebar">
             <div className="slides">
-<<<<<<< HEAD
               {/* <faC  width={20} height={20} icon={"facebook"} />
               <FontAwesomeIcon icon="fa-solid fa-angle-right" /> */}
               {/* <FontAwesomeIcon icon={faCoffee}/> */}
-=======
               <button className="left-btn"><FaAngleLeft/></button>
               <button className="right-btn"><FaAngleRight/></button>
->>>>>>> ddcb031f7f62f0ceaf9eeb6809d049467c9588a7
             </div>
           </div>
 
@@ -86,7 +79,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
+    
   );
 };
 
