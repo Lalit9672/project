@@ -17,10 +17,10 @@ const Mainnavbar = () => {
             <div className={isMobile?"nav-link-mobile":"main-compo"}
             onClick={()=>setIsMobile(false)}
             >
-                <Link to="/" ><FaHome/></Link>
+                <Link to="./" ><FaHome/></Link>
                 <Link to ="/">AboutUS</Link>
-                <Link to ="/">Editor message</Link>
-                <Link to ="/">Contact us </Link>
+                <Link to ="./Editor/Editor">Editor message</Link>
+                <Link to ="./Contact/Contact">Contact us </Link>
                 {/* <i className="searcgh"><FaSearch/></i>  */}
             </div>
            
