@@ -42,13 +42,7 @@ const Mainnavbar = () => {
             
         </div>
         </div>
-        {/* <button className='mobile-menu-icon'>
-          {isMobile ?(
-        <i className='after-icon'><FaAlignJustify/></i>
-          ):(
-            <i className='after-icon'><FaAlignJustify/></i>
-          )}
-        </button> */}
+       
         </>
     )
 }
