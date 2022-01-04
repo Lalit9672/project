@@ -14,6 +14,8 @@ import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
 import Newsfirebase from "./components/firebase/Newsfirebase"
+import About from './components/about/About';
+import Aim from "./components/Aim/Aim";
 
 
 const AllRoutes = () => {
@@ -26,7 +28,7 @@ const AllRoutes = () => {
     
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<Home />} />
+          <Route path="/About" element={<About />} />
           <Route path="/about/introduction" element={<Introduction />} />
           <Route path="/about/Objectives" element={<Objectives />} />
           <Route path="/about/MissionAndVision" element={<MissionAndVision />} />
@@ -41,6 +43,7 @@ const AllRoutes = () => {
           <Route path="/about/Objectives" element={<Objectives/>} />
           <Route path="/firebase" element={<Home/>}/>
           <Route path="/firebase/Newsfirebase" element={<Newsfirebase/>}/>
+          <Route path ="/Aim/Aim" element={<Aim/>}/>
         </Routes>
         <Sidebar />
       </div>
