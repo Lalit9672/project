@@ -8,7 +8,7 @@ const Chairman = () => {
     <div class="blog">
       <div class="blog-post">
         <div class="blog-post-img">
-          <img src="images/chairman-sir.jpg" alt="" />
+          <img src="/img/b.jpg" alt="" />
         </div>
         <div class="blog-post-info">
           <div class="blog-post-title">
