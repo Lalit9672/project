@@ -132,6 +132,15 @@
         color: black;
         
     }
+    .mobile-menu-icon
+    {
+        position: fixed;
+        right: 0;
+        height: 30px;
+        width: 50px;
+    
+    }
+    
   
 
 }

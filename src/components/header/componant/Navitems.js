@@ -1,5 +1,5 @@
 
-import { FaAngleDown} from "react-icons/fa";
+
 export const navItems = [
   
     {
@@ -25,7 +25,7 @@ export const navItems = [
     {
       id: 4,
       title: "Guidlines",
-      path: "./guidline",
+      path: "./",
       cName: "nav-item",
     },
     {
@@ -43,7 +43,7 @@ export const navItems = [
       {
         id:7 ,
         title: "Aim and scope",
-        path: "./aim",
+        path: "./Aim/Aim",
         cName: "nav-item",
       },
       {
@@ -107,8 +107,8 @@ export const navItems = [
   export const issueDropdown = [
     {
       id: 1,
-      title: "Development",
-      path: "./development",
+      title: "upload volume",
+      path: "./firebase/Newsfirebase",
       cName: "submenu-item",
     }
 ];

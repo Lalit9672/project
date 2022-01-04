@@ -28,6 +28,14 @@
     
     /* padding: 2px 19px; */
 }
+.search 
+{
+    display: none;
+}
+.nav-link-serach 
+{
+    display: block;
+}
 .main-compo a:hover{
     border-top: 3px solid #f27300;
 }
