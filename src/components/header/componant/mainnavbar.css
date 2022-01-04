@@ -34,8 +34,26 @@
 }
 .nav-link-serach 
 {
-    display: block;
+    display: flex;
+   margin-right: 0;
+    
 }
+.nav-link-serach  input{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding: 0.4rem;
+    font-size: 16px;
+}
+
+.nav-link-serach  button{
+    border-radius: 1px;
+    font-size: 16px;
+    padding: 0.4rem;
+    margin-top: 1rem;
+    background-color: #ff6900;
+    color: white;
+}
+
 .main-compo a:hover{
     border-top: 3px solid #f27300;
 }

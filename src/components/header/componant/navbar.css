@@ -91,7 +91,7 @@
 {
     .navbar
 {
-    height:60px;
+    height:auto;
     background: #1b1919;
     display: flex;
     border-top: 3px solid #f27300;
@@ -105,10 +105,10 @@
     }
     .nav-link-mobileView
     {
-        position: absolute;
+    
         top:60px;
         left: 0;
-        height:600px;
+        height:auto;
         width: 100%;
         background-color: black;
         color: white;
@@ -140,7 +140,10 @@
         width: 50px;
     
     }
-    
+    .icon
+    {
+        display: none;
+    }
   
 
 }

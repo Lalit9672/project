@@ -77,7 +77,7 @@ const Navbar = () => {
               <li key={item.id} className={item.cName}>
                 <Link to={item.path}>{item.title}</Link>
               </li>
-
+              
             );
           })}
 

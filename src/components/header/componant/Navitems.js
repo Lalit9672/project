@@ -64,6 +64,7 @@ export const navItems = [
         path: "./Contact/Contact",
         cName: "nav-item",
       },
+    
 
   ];
   
