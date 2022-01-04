@@ -1,5 +1,3 @@
-
-
 export const navItems = [
   
     {
@@ -65,55 +63,51 @@ export const navItems = [
         cName: "nav-item",
       },
     
-
-  ];
-  
-  export const AboutusDropdown = [
-    {
-      id: 1,
-      title: "Introduction",
-      path: "./about/introduction",
-      cName: "submenu-item",
-    },
-    {
-      id: 2,
-      title: "Mission & vision",
-      path: "./about/MissionAndVision",
-      cName: "submenu-item",
-    },
-    {
-      id: 3,
-      title: "Objective",
-      path: "./about/Objectives",
-      cName: "submenu-item",
-    },
-   
-  ];
-
-  export const Guidlinesdropdown = [
-    {
-      id: 1,
-      title: "BooklineGuildline",
-      path: "./marketing",
-      cName: "submenu-item",
-    },
-    {
-      id: 2,
-      title: "SubmissionGuidline",
-      path: "./consulting",
-      cName: "submenu-item",
-    },
-    
-  ];
-  export const issueDropdown = [
-    {
-      id: 1,
-      title: "upload volume",
-      path: "./firebase/Newsfirebase",
-      cName: "submenu-item",
-    }
+    ]
+export const AboutusDropdown = [
+  {
+    id: 1,
+    title: "Introduction",
+    path: "./about/introduction",
+    cName: "submenu-item",
+  },
+  {
+    id: 2,
+    title: "Mission & vision",
+    path: "./about/MissionAndVision",
+    cName: "submenu-item",
+  },
+  {
+    id: 3,
+    title: "Objective",
+    path: "./about/Objectives",
+    cName: "submenu-item",
+  },
 ];
-  
+
+export const Guidlinesdropdown = [
+  {
+    id: 1,
+    title: "BooklineGuildline",
+    path: "./marketing",
+    cName: "submenu-item",
+  },
+  {
+    id: 2,
+    title: "SubmissionGuidline",
+    path: "./consulting",
+    cName: "submenu-item",
+  },
+];
+export const issueDropdown = [
+  {
+    id: 1,
+    title: "upload volume",
+    path: "./firebase/Newsfirebase",
+    cName: "submenu-item",
+  },
+];
+
 export const editorDropdown = [
   {
     id: 1,
