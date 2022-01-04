@@ -1,118 +1,111 @@
-
-
 export const navItems = [
-  
-    {
-
-      id: 1,
-      title: "Home",
-      path: "./",
-      cName: "nav-item",
-    },
-    {
-      id: 2,
-      title: "Aboutus",
-      path: "./about",
-      cName: "nav-item",
-      symbol:"<FaAngleDown/>",
-    },
-    {
-      id: 3,
-      title: "issue of our journel",
-      path: "./products",
-      cName: "nav-item",
-    },
-    {
-      id: 4,
-      title: "Guidlines",
-      path: "./",
-      cName: "nav-item",
-    },
-    {
-        id: 5,
-        title: "Editorial",
-        path: "./editorial",
-        cName: "nav-item",
-      },
-      {
-        id: 6,
-        title: "Call for paper",
-        path: "./call",
-        cName: "nav-item",
-      },
-      {
-        id:7 ,
-        title: "Aim and scope",
-        path: "./Aim/Aim",
-        cName: "nav-item",
-      },
-      {
-        id:8 ,
-        title: "Turn Around dates",
-        path: "./dates",
-        cName: "nav-item",
-      },
-      {
-        id:9 ,
-        title: "Resesach papers",
-        path: "./papers",
-        cName: "nav-item",
-      },
-      {
-        id:10 ,
-        title: "Contacts",
-        path: "./Contact/Contact",
-        cName: "nav-item",
-      },
-
-  ];
-  
-  export const AboutusDropdown = [
-    {
-      id: 1,
-      title: "Introduction",
-      path: "./about/introduction",
-      cName: "submenu-item",
-    },
-    {
-      id: 2,
-      title: "Mission & vision",
-      path: "./about/MissionAndVision",
-      cName: "submenu-item",
-    },
-    {
-      id: 3,
-      title: "Objective",
-      path: "./about/Objectives",
-      cName: "submenu-item",
-    },
-   
-  ];
-
-  export const Guidlinesdropdown = [
-    {
-      id: 1,
-      title: "BooklineGuildline",
-      path: "./marketing",
-      cName: "submenu-item",
-    },
-    {
-      id: 2,
-      title: "SubmissionGuidline",
-      path: "./consulting",
-      cName: "submenu-item",
-    },
-    
-  ];
-  export const issueDropdown = [
-    {
-      id: 1,
-      title: "upload volume",
-      path: "./firebase/Newsfirebase",
-      cName: "submenu-item",
-    }
+  {
+    id: 1,
+    title: "Home",
+    path: "./",
+    cName: "nav-item",
+  },
+  {
+    id: 2,
+    title: "Aboutus",
+    path: "./about",
+    cName: "nav-item",
+    symbol: "<FaAngleDown/>",
+  },
+  {
+    id: 3,
+    title: "issue of our journel",
+    path: "./products",
+    cName: "nav-item",
+  },
+  {
+    id: 4,
+    title: "Guidlines",
+    path: "./",
+    cName: "nav-item",
+  },
+  {
+    id: 5,
+    title: "Editorial",
+    path: "./editorial",
+    cName: "nav-item",
+  },
+  {
+    id: 6,
+    title: "Call for paper",
+    path: "./call",
+    cName: "nav-item",
+  },
+  {
+    id: 7,
+    title: "Aim and scope",
+    path: "./Aim/Aim",
+    cName: "nav-item",
+  },
+  {
+    id: 8,
+    title: "Turn Around dates",
+    path: "./dates",
+    cName: "nav-item",
+  },
+  {
+    id: 9,
+    title: "Resesach papers",
+    path: "./papers",
+    cName: "nav-item",
+  },
+  {
+    id: 10,
+    title: "Contacts",
+    path: "./Contact/Contact",
+    cName: "nav-item",
+  },
 ];
-  
+
+export const AboutusDropdown = [
+  {
+    id: 1,
+    title: "Introduction",
+    path: "./about/introduction",
+    cName: "submenu-item",
+  },
+  {
+    id: 2,
+    title: "Mission & vision",
+    path: "./about/MissionAndVision",
+    cName: "submenu-item",
+  },
+  {
+    id: 3,
+    title: "Objective",
+    path: "./about/Objectives",
+    cName: "submenu-item",
+  },
+];
+
+export const Guidlinesdropdown = [
+  {
+    id: 1,
+    title: "BooklineGuildline",
+    path: "./marketing",
+    cName: "submenu-item",
+  },
+  {
+    id: 2,
+    title: "SubmissionGuidline",
+    path: "./consulting",
+    cName: "submenu-item",
+  },
+];
+export const issueDropdown = [
+  {
+    id: 1,
+    title: "upload volume",
+    path: "./firebase/Newsfirebase",
+    cName: "submenu-item",
+  },
+];
+
 export const editorDropdown = [
   {
     id: 1,

@@ -30,7 +30,10 @@ const Mainnavbar = () => {
               <FaSearch onClick={() => setSearch(false)} />
             </i>
           </div>
-          <div className={isSearch ? "nav-link-search" : "search"} onClick={() => setSearch(!isSearch)}>
+          <div
+            className={isSearch ? "nav-link-search" : "search"}
+            onClick={() => setSearch(!isSearch)}
+          >
             <form action="/action_page.php">
               <input type="text" placeholder="Search.." name="search" />
               <button type="submit">Submit</button>
