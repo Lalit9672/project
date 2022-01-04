@@ -12,6 +12,8 @@ import Chairman from "./components/Editor/Chairman";
 import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
+import Booksubmission from "./components/submissions/Booksubmission";
+import Submissionguide from "./components/submissions/Submissionguide";
 
 
 const AllRoutes = () => {
@@ -35,6 +37,8 @@ const AllRoutes = () => {
           <Route path="/Editor/associate-editors-message" element={<Associate/>} />
           <Route path="/about/MissionAndVision" element={<MissionAndVision/>} />
           <Route path="/about/Objectives" element={<Objectives/>} />
+          <Route path="/submissions/Booksubmission" element={<Booksubmission/>}/>
+          <Route path="/submissions/Submissionguide" element={<Submissionguide/>}/>
         </Routes>
         <Sidebar />
       </div>
