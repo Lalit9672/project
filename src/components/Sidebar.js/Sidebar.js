@@ -1,5 +1,6 @@
 import React from 'react'
 import "./sidebar.css"
+
 const Sidebar = () => {
     return (
         <>
@@ -15,7 +16,7 @@ const Sidebar = () => {
                     <marquee behavior="scroll" direction="up" 
                             onmouseout="this.start()" onmouseover="this.stop()" scrolldelay='1' scrollamount='1'>
                         <a href="https://www.aravalieducation.org">Research paper invitation</a>
-                    <p>
+                    <p id='newsupdate'>
                         Journal of Indian Research (JIR) solicits original and unpublished research papers 
                         for its July-September- , 2021 issue (JIR, Volume 9, issue 3 ). Please send your 
                         Research paper at jir@mewaruniversity.org , latest by 15 Oct 2021
