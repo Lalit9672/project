@@ -1,47 +1,35 @@
 import React , { Component } from "react"
-import fire from "./fire";
 import "./Newsfirebase.css"
+import { initializeApp } from 'firebase/app';
+import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 
-class Newsfirebase extends Component{
+const firebaseConfig = {
 
-    state={
-        text : ""
-    }
+};
 
-    handletext=e=>{
-        this.setState(
-            {
-                text : e.target.value
-            }
-        )
-    }
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
 
-    handleSubmit=e=>{
-        let messageRef = fire.database().ref("messages").orderByKey().limitToLast(100);
-        fire.database().ref("messages").push(this.state.text)
-        this.setState({
-            text : ""
-        })
+    const Newsfirebase = ()=>{
+        let handleSubmit = () =>{
+            let pk = document.getElementById('newsupdate');
+            let pks = document.getElementById('inputText')
+            console.log(pk)
+            console.log(pks.value);
+        }
 
-    }
-
-    render(){
-        return(
+        return( 
             <>
             <div className="news_section">
             <div className="news_input">
-            <h2>Update news</h2>
-            <input type="text" onChange={this.handletext} id="inputText" placeholder="News" name="News"/>
-            <button onClick={this.handleSubmit} >Submit</button>
+            <h2>Update News</h2>
+            <input type="text" id="inputText" placeholder="News" name="News"/>
+            <button onClick={handleSubmit}>Submit</button>
             </div>
             </div>
-            </>
+            </>     
         );
     }
-}
+
 
 export default Newsfirebase;
-
-
-
-
