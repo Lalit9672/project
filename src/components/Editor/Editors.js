@@ -1,14 +1,14 @@
 import React from "react";
-import "./editor.css";
+import "./Editorials.css";
 
 const Editors = () => {
   return (
     <div>
-      
       <div class="blog">
+      <h1 class="single-title">Editorial Board</h1>
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="./../../public/img/chairman-sir.jpg" alt="" />
+            <img src="/img/a.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
@@ -35,7 +35,7 @@ const Editors = () => {
         </div>
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="Sarvottam-Dixit.jpg" alt="" />
+            <img src="/img/b.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
@@ -63,7 +63,7 @@ const Editors = () => {
 
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="Shri-Ram-Bahadur-Rai.jpg" alt="" />
+            <img src="/img/c.jpeg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
@@ -90,7 +90,7 @@ const Editors = () => {
         </div>
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="Mahesh-Chandra-Sharma.jpeg" alt="" />
+            <img src="/img/d.jpeg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
@@ -117,7 +117,7 @@ const Editors = () => {
         </div>
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="Neeraj-Ji.jpeg" alt="" />
+            <img src="/img/e.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
@@ -145,7 +145,7 @@ const Editors = () => {
 
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="Ahsan-Rizvi.jpg" alt="" />
+            <img src="/img/f.png" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
@@ -169,12 +169,12 @@ const Editors = () => {
                 <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
               </span>
             </div>
-          </div>  
+          </div>
         </div>
 
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="./img/Shashank-Divwedi.png" alt="" />
+            <img src="/img/g.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
@@ -183,7 +183,8 @@ const Editors = () => {
                 <br /> M. Tech. (France)
                 <br />
                 <br />
-                HoD EE, Associate Professor, Electronic & Communication Engineering, Mewar University
+                HoD EE, Associate Professor, Electronic & Communication
+                Engineering, Mewar University
                 <br />
                 <br />
                 Phone: 9891****93

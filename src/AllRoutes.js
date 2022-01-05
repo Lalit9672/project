@@ -13,39 +13,60 @@ import Chairman from "./components/Editor/Chairman";
 import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
-import Newsfirebase from "./components/firebase/Newsfirebase"
 
+import About from "./components/about/About";
+import Aim from "./components/Aim/Aim";
 
 const AllRoutes = () => {
   return (
-    <Router>
-      <Header />
-      <div className="respo">
-        {/* style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }} */}
-        
-    
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<Home />} />
-          <Route path="/about/introduction" element={<Introduction />} />
-          <Route path="/about/Objectives" element={<Objectives />} />
-          <Route path="/about/MissionAndVision" element={<MissionAndVision />} />
-          <Route path="/Contact" element={<Home />} />
-          <Route path="/Contact/Contact" element={<Contact />} />
-          <Route path="/Editor/Editor" element={<Editor />} />
-          <Route path="/Editor/chairepersons-message" element={<Chairman />} />
-          <Route path="/Editor/message-of-ethical-committee-chairman" element={<Vicecanceler/>} />
-          <Route path="/Editor/editors-message" element={<Editorsmessage/>} />
-          <Route path="/Editor/associate-editors-message" element={<Associate/>} />
-          <Route path="/about/MissionAndVision" element={<MissionAndVision/>} />
-          <Route path="/about/Objectives" element={<Objectives/>} />
-          <Route path="/firebase" element={<Home/>}/>
-          <Route path="/firebase/Newsfirebase" element={<Newsfirebase/>}/>
-        </Routes>
-        <Sidebar />
-      </div>
-      <Footer/>
-    </Router>
+    <div style={{ width: "90%", margin: "auto", overflowX: "hidden" }}>
+      <Router>
+        <Header />
+        <div className="respo">
+          {/* style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }} */}
+
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/about/introduction" element={<Introduction />} />
+            <Route path="/about/Objectives" element={<Objectives />} />
+            <Route
+              path="/about/MissionAndVision"
+              element={<MissionAndVision />}
+            />
+            <Route path="/Contact" element={<Home />} />
+            <Route path="/Contact/Contact" element={<Contact />} />
+            <Route path="/Editor/Editor" element={<Editor />} />
+            <Route
+              path="/Editor/chairepersons-message"
+              element={<Chairman />}
+            />
+            <Route
+              path="/Editor/message-of-ethical-committee-chairman"
+              element={<Vicecanceler />}
+            />
+            <Route
+              path="/Editor/editors-message"
+              element={<Editorsmessage />}
+            />
+            <Route
+              path="/Editor/associate-editors-message"
+              element={<Associate />}
+            />
+            <Route
+              path="/about/MissionAndVision"
+              element={<MissionAndVision />}
+            />
+            <Route path="/about/Objectives" element={<Objectives />} />
+            <Route path="/firebase" element={<Home />} />
+            {/* <Route path="/firebase/Newsfirebase" element={<Newsfirebase />} /> */}
+            <Route path="/Aim/Aim" element={<Aim />} />
+          </Routes>
+          <Sidebar />
+        </div>
+        <Footer />
+      </Router>
+    </div>
   );
 };
 export default AllRoutes;
