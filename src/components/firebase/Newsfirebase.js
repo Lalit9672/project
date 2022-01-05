@@ -39,10 +39,10 @@ import "./Newsfirebase.css"
                             heading:"",
                             news:""
                         });
-                    alert('Data Saved Successfully')
+                    alert('Data Saved Successfully and thanks gottu for stay here to see my work')
                     };
                 } else {
-                    alert('Please Fill all the spaces')
+                    alert('gotti Please Fill all the spaces')
                 }
 
 
