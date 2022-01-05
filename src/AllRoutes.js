@@ -58,6 +58,10 @@ const AllRoutes = () => {
               path="/about/MissionAndVision"
               element={<MissionAndVision />}
             />
+            <Route 
+              path="/Call_for_paper/Cpaper"
+              element={<Cpaper />}
+            />
             <Route path="/about/Objectives" element={<Objectives />} />
             <Route path="/firebase" element={<Home />} />
             <Route path="/firebase/Newsfirebase" element={<Newsfirebase />} />
