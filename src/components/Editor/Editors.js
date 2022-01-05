@@ -4,35 +4,22 @@ import "./Editorials.css";
 const Editors = () => {
   return (
     <div className="editer">
-      <div class="editorial">
-      <h1 class="single-title">Editorial Board</h1>
-        <div class="blog-post">
-          <div class="blog-post-img">
-            <img src="/img/b.jpg" alt="" />
-          </div>
-          <div class="blog-post-info">
-            <div class="blog-post-title">
-              <h1>Dr Ashok Kumar Gadiya</h1>
-              <span>
-                <br />
-                C.A, Ph.D.
-                <br />
-                <br />
-                Chairperson, Mewar University
-                <br />
-                <br />
-                Phone: 9891****93
-                <br />
-                <br />
-                Email:akg@mewruniversity.com
-                <br />
-                <br />
-                Profile
-                <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
-              </span>
-            </div>
+        <h1 class="single-title">Editorial Board</h1>
+      <div class="blog-post-img">
+          <img src="/img/b.jpg" alt="" />
+          <div class="blog-post-title">
+          <h1>Dr Ashok Kumar Gadiya</h1>
+          <span><br />
+          C.A, Ph.D.<br />
+          Chairperson, Mewar University<br />
+          Phone: 9891****93<br />
+          Email:akg@mewruniversity.com<br />
+          Profile
+          <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
+          </span>
           </div>
         </div>
+
         <div class="blog-post">
           <div class="blog-post-img">
             <img src="/img/e.jpg" alt="" />
@@ -202,7 +189,6 @@ const Editors = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
