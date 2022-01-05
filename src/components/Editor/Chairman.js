@@ -5,14 +5,15 @@ const Chairman = () => {
     return (
         <div>
             
-    <div class="blog">
-      <div class="blog-post">
-        <div class="blog-post-img">
+    <div class="blog1">
+    <h1 class="title1">Chairperson’s Message</h1>
+      <div class="blog-post1">
+        <div class="blog-post-img1">
           <img src="/img/b.jpg" alt="" />
         </div>
-        <div class="blog-post-info">
-          <div class="blog-post-title">
-            <h1 class="blog-post-title">Dr Ashok Kumar Gadiya</h1>
+        <div class="blog-post-info1">
+          <div class="blog-post-title1">
+            <h1>Dr Ashok Kumar Gadiya</h1>
             <span>
               <br />C.A, Ph.D.<br />
               <br />Chairperson, Mewar University<br />
@@ -24,7 +25,7 @@ const Chairman = () => {
             </span>
           </div>
         </div>
-        <div class="message">
+        <div class="message1">
           <p>
             Welcome to the online edition of Indian Journal Research (IJR). This
             year marks a milestone in the history of the journal because it

@@ -4,14 +4,14 @@ import "./vicecanceler.css";
 const Vicecanceler = () => {
   return (
     <div>
-      <div class="blog">
-        <div class="blog-post">
-          <div class="blog-post-img">
+      <div class="blog2">
+        <div class="blog-pos2t">
+          <div class="blog-post-img2">
             <img src="/img/e.jpg" alt="" />
           </div>
-          <div class="blog-post-info">
-            <div class="blog-post-title">
-              <h1 class="blog-post-title">Dr Ashok Kumar Gadiya</h1>
+          <div class="blog-post-info2">
+            <div class="blog-post-title2">
+              <h1 class="blog-post-title2">Dr Ashok Kumar Gadiya</h1>
               <span>
                 <br />
                 C.A, Ph.D.
@@ -31,7 +31,7 @@ const Vicecanceler = () => {
               </span>
             </div>
           </div>
-          <div class="message">
+          <div class="message2">
             <p>
               Welcome to the online edition of Indian Journal Research (IJR).
               This year marks a milestone in the history of the journal because
