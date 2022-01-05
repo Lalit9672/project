@@ -1,10 +1,11 @@
 import React , { Component, useState } from "react"
 import "./Newsfirebase.css"
     
-    const Newsfirebase = ()=>{
+    const Newsfirebase = ()=>{    
         
         const[user, setUser] = useState ({
-            name:''
+            heading:'',
+            news:''
         });
         
         let name, value;
@@ -15,23 +16,34 @@ import "./Newsfirebase.css"
             setUser({...user, [name]:value})
         };
 
-
-        let handleSubmit = () =>{
-            
-            const postData = async(e) =>{
+        const postData = async(e) =>{
                 e.preventDefault();
 
-                const name = user
-            const res = await fetch('https://college-project-337223-default-rtdb.firebaseio.com/collegeproject.json',{
+                const {heading, news} = user;
+
+                if (heading && news) {
+                    const res = await fetch('https://college-project-337223-default-rtdb.firebaseio.com/collegeproject.json',{
                     method : "POST",
                     headers:{
                         "Contant-Type":"application/json",
                     },
                     body:JSON.stringify({
-                        name
+                        heading,
+                        news
                     })
-                });
-            };
+                }
+                );
+                    
+                    if (res) {
+                        setUser({
+                            heading:"",
+                            news:""
+                        });
+                    alert('Data Saved Successfully')
+                    };
+                } else {
+                    alert('Please Fill all the spaces')
+                }
 
 
             // let pk = document.getElementById('newsupdate');
@@ -47,16 +59,28 @@ import "./Newsfirebase.css"
             <h2>Update News</h2>
             <input
                 type="text"
-                id="inputText"
-                placeholder="Update News"
-                name="name"
-                value={user.name}
+                id="inputTextHeading"
+                placeholder="Update News Heading"
+                name="heading"
+                value={user.heading}
                 onChange={getUserData}
                 autoComplete="off"
                 method = "POST"
                 required
                 />
-            <button onClick={handleSubmit}>Submit</button>
+
+                <input
+                type="text"
+                id="inputText"
+                placeholder="Update News"
+                name="news"
+                value={user.news}
+                onChange={getUserData}
+                autoComplete="off"
+                method = "POST"
+                required
+                />
+            <button onClick={postData}>Submit</button>
             </div>
             </div>
             </>     

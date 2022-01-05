@@ -32,11 +32,7 @@ const Editorsmessage = () => {
               </span>
             </div>
           </div>
-<<<<<<< HEAD
           <div class="edot-message">
-=======
-          <div class="message3">
->>>>>>> 68cfd4f8ba9e6e6162c9b4719c907d88c431f1e4
             <p>
               Welcome to the online edition of Indian Journal Research (IJR).
               This year marks a milestone in the history of the journal because
