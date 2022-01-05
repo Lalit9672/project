@@ -1,6 +1,4 @@
 import React from "react";
-// import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import "./home.css";
 
@@ -19,9 +17,6 @@ const Home = () => {
           {/* Slidebar Start */}
           <div className="slidebar">
             <div className="slides">
-              {/* <faC  width={20} height={20} icon={"facebook"} />
-              <FontAwesomeIcon icon="fa-solid fa-angle-right" /> */}
-              {/* <FontAwesomeIcon icon={faCoffee}/> */}
               <button className="left-btn"><FaAngleLeft/></button>
               <button className="right-btn"><FaAngleRight/></button>
             </div>
@@ -37,7 +32,7 @@ const Home = () => {
               topics related to science, engineering, information technology,
               arts, social science, law, management, commerce, etc. We welcome
               papers on topics related to core areas of research as well as on
-              interdisciplinary topics. Please send your articles to
+              interdisciplinary topics. Please send your articles to . 
             </p>
 
             <a href="https://www.aravalieducation.org/">

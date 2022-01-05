@@ -14,12 +14,12 @@
 .blog{
     display: flex;
     background-color: white;
-    margin-left: 1rem;   
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .leftside{
-    padding: 2rem 1rem;
+    padding: 1rem 0.5rem;
+    margin-left: 4rem;
 }
 
 .leftside h1{
@@ -57,10 +57,20 @@
 .slides button{
     font-size: 40px;
     color: white;
-    padding: 1rem 1rem;
+    cursor: pointer;
+    position: absolute;
     background-color: unset;
     border-style: none;
 }
+
+.left-btn{
+    left: 20;
+}
+
+.right-btn{
+    right: 20;
+}
+
 
 /* -------image slider end --------*/
 .middle-div{
@@ -127,9 +137,10 @@
 /* ============================================================================== */
 /* --------------------media query------------------- */
 
-@media only screen and (max-width: 800px) and (min-width : 500px) {
+@media only screen and (max-width: 900px) and (min-width : 500px) {
     .leftside{
         padding: 1rem 0.5rem;
+        margin-left: 3rem;
     }
     
     .leftside h1{
@@ -185,6 +196,7 @@
 @media only screen and (max-width: 500px){
     .leftside{
         padding: 0.40rem 0.20rem;
+        margin-left: 2rem;
     }
     
     .leftside h1{
