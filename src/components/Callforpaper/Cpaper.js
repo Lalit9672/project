@@ -1,7 +1,9 @@
 import React from "react";
 import "./Cpaper.css";
+
 const Cpaper = () => {
   return (
+    <>
     <div className="main-block">
       <h1 className="main-head">Call for Paper</h1>
       <br />
@@ -66,6 +68,7 @@ const Cpaper = () => {
       </p>
       <br />
     </div>
+    </>
   );
 };
 

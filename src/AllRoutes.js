@@ -14,6 +14,7 @@ import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
 import Newsfirebase from './components/firebase/Newsfirebase';
+import Cpaper from './components/Callforpaper/Cpaper'
 
 import About from "./components/about/About";
 import Aim from "./components/Aim/Aim";
@@ -58,8 +59,14 @@ const AllRoutes = () => {
               path="/about/MissionAndVision"
               element={<MissionAndVision />}
             />
+
+            <Route
+            path="/Callforpaper"
+            element={<Home/>}
+            />
+
             <Route 
-              path="/Call_for_paper/Cpaper"
+              path="/Callforpaper/Cpaper"
               element={<Cpaper />}
             />
             <Route path="/about/Objectives" element={<Objectives />} />
