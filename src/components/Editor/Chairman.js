@@ -11,9 +11,9 @@ const Chairman = () => {
         <div class="blog-post-img">
           <img src="/img/b.jpg" alt="" />
         </div>
-        <div class="blog-post-info">
-          <div class="blog-post-title">
-            <h1 class="blog-post-title">Dr Ashok Kumar Gadiya</h1>
+        <div class="blog-post-info1">
+          <div class="blog-post-title1">
+            <h1>Dr Ashok Kumar Gadiya</h1>
             <span>
               <br />C.A, Ph.D.<br />
               <br />Chairperson, Mewar University<br />

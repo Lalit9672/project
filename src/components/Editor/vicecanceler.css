@@ -20,6 +20,13 @@
   border-radius:   0.8em;
   padding-top: 0.1rem;
   padding-bottom: 1px;
+  margin-top: -350px;
+  
+  font-family: "Calibri Light";
+  font-size: 15px;
+  font-weight: 400;
+  color: #202020;
+
 }
 
 .blog-post-img {
@@ -63,46 +70,62 @@
   line-height: 1.8;
 }
 
-@media screen and (max-width: 1068px) {
-  .blog-post {
-    max-width: 80rem;
-  }
-  .editor {
-    max-width: 10rem;
-    margin-left: 10rem;
-  }
-  .blog-post-img img {
-    min-width: 30rem;
-    max-width: 30rem;
-  }
+ @media screen and (max-width:868px) {
+   .blog-post2{
+     padding-top:  30rem;
+     padding-left: 10px;
+     padding-right:10px;
+     padding-bottom:1rem;
+     flex-direction: column;
+   }
+   .blog-post-img2 img{
+     min-width: 170px;
+     max-width: 100vh;
+     transform: translate(0, -8rem);
+   }
+   .blog-post-info2{
+     margin-top:-50px;
+     margin-left: -100px;
+
+
+   }
+   
+.blog-post2 .message2{ 
+  text-align: center;
+  
+  
+    
 }
 
-@media screen and (max-width: 868px) {
-  .blog-post {
-    padding-top: 10rem;
-    padding-left: 130px;
-    padding-right: 130px;
-    padding-bottom: 2rem;
-    flex-direction: column;
-  }
-  .blog-post-img img {
-    min-width: 170px;
-    max-width: 100vh;
-    transform: translate(0, -8rem);
-  }
-  .blog-post-info {
-    margin-top: -50px;
-    margin-left: -50px;
-  }
-  .editor {
-    padding-top: -900px;
-    padding-left: 280px;
-    padding-right: 130px;
+ }
+.blog-post2 .message2{
+
+
+    margin-top: 380px;
+    padding-top: 200px;
+    margin-left: -650px;
+    padding-left: 90px;
+    padding-right:10px;
     padding-bottom: 20px;
-    flex-direction: column;
-  }
+    color:rgba(16, 17, 3, 0.8);
+    line-height: 1.8;
+    font-family: "Calibri Light";
+    font-size: 15px;
+    font-weight: 400;
+    color: #202020;
+    
+    
 }
-.editor {
-  margin-top: 180px;
-  margin-left: -350px;
+
+
+.title2{
+  color: rgba(39, 39, 37, 0.8);
+  margin-top: 20px;
+  padding-bottom: 0px;
+  padding: auto;
+  margin-left: 100px;
+  word-wrap: break-word;
+  font-weight: 700px;
+  font-size: 32px;
+  color: #000;
 }
