@@ -5,7 +5,8 @@ const Vicecanceler = () => {
   return (
     <div>
       <div class="blog2">
-        <div class="blog-pos2t">
+      <h1 class="title1">Chairman Ethical Committee Message</h1>
+        <div class="blog-post2">
           <div class="blog-post-img2">
             <img src="/img/e.jpg" alt="" />
           </div>

@@ -2,7 +2,7 @@
 .blog-post1{
   width: 100%;
   max-width: 98rem;
-  padding: 6rem;
+  padding: 2rem;
   display: flex;
   align-items: left;
   align-items: center;
@@ -139,7 +139,7 @@
   margin-top: 20px;
   padding-bottom: 0px;
   padding: auto;
-  margin-left: 100px;
+  margin-left: 40px;
   word-wrap: break-word;
   font-weight: 700px;
   font-size: 32px;

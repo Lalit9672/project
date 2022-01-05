@@ -6,6 +6,8 @@ const Editorsmessage = () => {
         <div>
             
       <div class="blog3">
+        
+      <h1 class="single-title">Editor’s Message</h1>
         <div class="blog-post3">
           <div class="blog-post-img3">
             <img src="/img/a.jpg" alt="" />

@@ -5,6 +5,7 @@ const Associate = () => {
   return (
     <div>
       <div class="blog4">
+      <h1 class="title1">Associate Editor’s Message</h1>
         <div class="blog-post4">
           <div class="blog-post-img4">
             <img src="/img/f.png" alt="" />
