@@ -1,16 +1,17 @@
 import React from "react";
+import './associate.css'
 
 const Associate = () => {
   return (
-    <div>
-      <div class="blog">
-        <div class="blog-post">
-          <div class="blog-post-img">
+    <div className='associate'>
+      <div class="associate-blog">
+        <div class="associate-blog-post">
+          <div class="associate-blog-post-img">
             <img src="/img/f.png" alt="" />
           </div>
-          <div class="blog-post-info">
-            <div class="blog-post-title">
-              <h1 class="blog-post-title">Dr Ashok Kumar Gadiya</h1>
+          <div class="associate-blog-post-info">
+            <div class="associate-blog-post-title">
+              <h1 class="associate-blog-post-title">Dr Ashok Kumar Gadiya</h1>
               <span>
                 <br />
                 C.A, Ph.D.
@@ -30,7 +31,7 @@ const Associate = () => {
               </span>
             </div>
           </div>
-          <div class="message">
+          <div class="associate-message">
             <p>
               Welcome to the online edition of Indian Journal Research (IJR).
               This year marks a milestone in the history of the journal because

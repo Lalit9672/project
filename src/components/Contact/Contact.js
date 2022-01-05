@@ -1,5 +1,7 @@
 import React from "react";
-import "./Contact.css"
+import "./Contact.css";
+// import { GoogleApiWrapper } from "google-map-react"
+// import { Wrapper, Status } from "@googlemaps/react-wrapper";
 
 const Contact = () => {
     return (
@@ -96,7 +98,17 @@ const Contact = () => {
             </figure>
             <h1 class="srm_gmap_heading_1 ">Mewar University Chittorgarh</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/F18Rxw6ftcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
+            {/* <map>
+                google ={this.props.google}
+                style = {{width:"20%", height:"20%"}}
+                zoom = {10}
+                initialCenter = {
+                    {
+                        lat: 24.585445,
+                        lng : 73.712479
+                    }
+                }
+            </map> */}
             </div>
             </div>
             </div>
@@ -105,4 +117,15 @@ const Contact = () => {
         )
 }
 
+// export default GoogleApiWrapper(
+//     {
+//         apikey : "AIzaSyAeWUvA_sXWUL6ps7QIjF55-BZHG--qg8w"
+//     }
+// )(Contact)
+
+// export default Contact({
+//     apikey : "AIzaSyAeWUvA_sXWUL6ps7QIjF55-BZHG--qg8w"
+// });
+
 export default Contact;
+

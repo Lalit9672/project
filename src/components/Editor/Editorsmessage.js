@@ -1,11 +1,12 @@
 import React from 'react'
+import './editormessage.css'
 
 const Editorsmessage = () => {
     return (
-        <div>
+        <div className='editormsg'>
             
-      <div class="blog">
-        <div class="blog-post">
+      <div class="editormsg-blog">
+        <div class="edi-blog-post">
           <div class="blog-post-img">
             <img src="/img/a.jpg" alt="" />
           </div>
@@ -31,7 +32,7 @@ const Editorsmessage = () => {
               </span>
             </div>
           </div>
-          <div class="message">
+          <div class="edot-message">
             <p>
               Welcome to the online edition of Indian Journal Research (IJR).
               This year marks a milestone in the history of the journal because

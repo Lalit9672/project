@@ -3,8 +3,8 @@ import "./Editorials.css";
 
 const Editors = () => {
   return (
-    <div>
-      <div class="blog">
+    <div className="editer">
+      <div class="editorial">
       <h1 class="single-title">Editorial Board</h1>
         <div class="blog-post">
           <div class="blog-post-img">

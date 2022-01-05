@@ -3,10 +3,11 @@ import "./chairman.css";
 
 const Chairman = () => {
     return (
-        <div>
+        
+        <div className='chairman'>
             
-    <div class="blog">
-      <div class="blog-post">
+    <div class="chairman-blog">
+      <div class="chairman-blog-post">
         <div class="blog-post-img">
           <img src="/img/b.jpg" alt="" />
         </div>
@@ -24,7 +25,7 @@ const Chairman = () => {
             </span>
           </div>
         </div>
-        <div class="message">
+        <div class="chairman-message">
           <p>
             Welcome to the online edition of Indian Journal Research (IJR). This
             year marks a milestone in the history of the journal because it
