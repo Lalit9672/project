@@ -1,8 +1,6 @@
-.associate{
+.about{
     width: 100%;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    padding-top: 6rem;
-    padding-bottom: 10rem;
 }

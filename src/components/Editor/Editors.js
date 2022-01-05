@@ -3,16 +3,16 @@ import "./Editorials.css";
 
 const Editors = () => {
   return (
-    <div>
-      <div class="blog">
+    <div className="editer">
+      <div class="editorial">
       <h1 class="single-title">Editorial Board</h1>
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="/img/a.jpg" alt="" />
+            <img src="/img/b.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
-              <h1 class="blog-post-title">Dr Ashok Kumar Gadiya</h1>
+              <h1>Dr Ashok Kumar Gadiya</h1>
               <span>
                 <br />
                 C.A, Ph.D.
@@ -35,11 +35,11 @@ const Editors = () => {
         </div>
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="/img/b.jpg" alt="" />
+            <img src="/img/e.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
-              <h1 class="blog-post-title">Prof (Dr) Sarvottam Dixit</h1>
+              <h1>Prof (Dr) Sarvottam Dixit</h1>
               <span>
                 <br />
                 M. Sc., M. Tech. Ph.D.
@@ -63,11 +63,11 @@ const Editors = () => {
 
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="/img/c.jpeg" alt="" />
+            <img src="/img/g.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
-              <h1 class="blog-post-title">Shri Ram Bahadur Rai</h1>
+              <h1>Shri Ram Bahadur Rai</h1>
               <span>
                 <br />
                 PG in Commerce, PD Dip in Mass Com.,
@@ -90,23 +90,51 @@ const Editors = () => {
         </div>
         <div class="blog-post">
           <div class="blog-post-img">
+            <img src="/img/c.jpeg" alt="" />
+          </div>
+          <div class="blog-post-info">
+            <div class="blog-post-title">
+              <h1>Dr Mahesh Chandra Sharma</h1>
+              <span>
+                <br />
+                C.A, Ph.D.
+                <br />
+                <br />
+                Chairperson, Mewar University
+                <br />
+                <br />
+                Phone: 9891****93
+                <br />
+                <br />
+                Email:akg@mewruniversity.com
+                <br />
+                <br />
+                Profile
+                <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <h1 class="single-title2">Honorary Editor-in-Chief</h1>
+        <div class="blog-post">
+          <div class="blog-post-img">
             <img src="/img/d.jpeg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
-              <h1 class="blog-post-title">Dr Mahesh Chandra Sharma</h1>
+              <h1>Niraj Kumar</h1>
               <span>
                 <br />
-                Ph.D.
+                C.A, Ph.D.
                 <br />
                 <br />
-                Ex-Member of Parliament
+                Chairperson, Mewar University
                 <br />
                 <br />
                 Phone: 9891****93
                 <br />
                 <br />
-                Email: *****
+                Email:akg@mewruniversity.com
                 <br />
                 <br />
                 Profile
@@ -115,25 +143,27 @@ const Editors = () => {
             </div>
           </div>
         </div>
+        <h1 class="single-title2">Editor</h1>
+
         <div class="blog-post">
           <div class="blog-post-img">
-            <img src="/img/e.jpg" alt="" />
+            <img src="/img/a.jpg" alt="" />
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
-              <h1 class="blog-post-title">Niraj Kumar</h1>
+              <h1>Dr Ahsan Z. Rizvi</h1>
               <span>
                 <br />
-                Civil Services
+                C.A, Ph.D.
                 <br />
                 <br />
-                Working in Central Govt.
+                Chairperson, Mewar University
                 <br />
                 <br />
                 Phone: 9891****93
                 <br />
                 <br />
-                Email: *****
+                Email:akg@mewruniversity.com
                 <br />
                 <br />
                 Profile
@@ -142,6 +172,7 @@ const Editors = () => {
             </div>
           </div>
         </div>
+        <h1 class="single-title2">Associate Editor</h1>
 
         <div class="blog-post">
           <div class="blog-post-img">
@@ -149,48 +180,19 @@ const Editors = () => {
           </div>
           <div class="blog-post-info">
             <div class="blog-post-title">
-              <h1 class="blog-post-title">Dr Ahsan Z. Rizvi</h1>
+              <h1>Shashank Kumar Dwivedi</h1>
               <span>
                 <br />
-                GATE, M. Tech. Ph.D., Post Doc (IIT-Indore), Post Doc (France)
+                C.A, Ph.D.
                 <br />
                 <br />
-                HoD EE, Associate Professor, Electronic & Communication
-                Engineering, Mewar University
+                Chairperson, Mewar University
                 <br />
                 <br />
                 Phone: 9891****93
                 <br />
                 <br />
-                Email: *****
-                <br />
-                <br />
-                Profile
-                <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="blog-post">
-          <div class="blog-post-img">
-            <img src="/img/g.jpg" alt="" />
-          </div>
-          <div class="blog-post-info">
-            <div class="blog-post-title">
-              <h1 class="blog-post-title">Shashank Kumar Dwivedi</h1>
-              <span>
-                <br /> M. Tech. (France)
-                <br />
-                <br />
-                HoD EE, Associate Professor, Electronic & Communication
-                Engineering, Mewar University
-                <br />
-                <br />
-                Phone: 9891****93
-                <br />
-                <br />
-                Email: *****
+                Email:akg@mewruniversity.com
                 <br />
                 <br />
                 Profile
