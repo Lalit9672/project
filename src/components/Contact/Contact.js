@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contact.css"
+// import "./google_map";
+
 
 const Contact = () => {
     return (
@@ -95,8 +97,9 @@ const Contact = () => {
             </table>
             </figure>
             <h1 class="srm_gmap_heading_1 ">Mewar University Chittorgarh</h1>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/F18Rxw6ftcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            
+            <iframe  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1-aZEVyfqaU3X8EAmsgwjkzTUd0WBUCc"></iframe>
+            {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3629.868695697902!2d73.76807551551228!3d24.524625464673843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e9229109330f%3A0xc00738f4507c053!2sAravali%20Group%20of%20Colleges%2C%20Udaipur%20Rajasthan!5e0!3m2!1sen!2sin!4v1641382750879!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> */}
+            {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/F18Rxw6ftcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> */}
             </div>
             </div>
             </div>

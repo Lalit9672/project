@@ -4,7 +4,6 @@ import "./home.css";
 
 const Home = () => {
   return (
-    <>
       <div className="blog">
         <div className="leftside">
           <h1>Welcome to Journal of Indian Research</h1>
@@ -33,7 +32,7 @@ const Home = () => {
               topics related to science, engineering, information technology,
               arts, social science, law, management, commerce, etc. We welcome
               papers on topics related to core areas of research as well as on
-              interdisciplinary topics. Please send your articles to
+              interdisciplinary topics. Please send your articles to . 
             </p>
 
             <a href="https://www.aravalieducation.org/">
@@ -75,7 +74,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </>
+    
   );
 };
 
