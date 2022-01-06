@@ -15,7 +15,7 @@ import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
 import Newsfirebase from './components/firebase/Newsfirebase';
 import Cpaper from './components/Callforpaper/Cpaper'
-import Booksubmission from './submission/Booksubmission';
+import Booksubmission from "./submissin/Booksubmission";
 import Submissionguide from './submission/Submissionguide';
 import About from "./components/about/About";
 import Aim from "./components/Aim/Aim";
