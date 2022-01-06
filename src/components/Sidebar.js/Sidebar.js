@@ -26,26 +26,27 @@ const Sidebar = () => {
           <input type="text" />
           <button>Search</button>
         </div>
+
         <div id="news">
           <h3>News</h3>
           <hr />
 
           <div className="notice-section">
-            <marquee
-              behavior="scroll"
-              direction="up"
-              onmouseout="this.start()"
-              onmouseover="this.stop()"
-              scrolldelay="1"
-              scrollamount="1"
-            >
               {news.map(({ title, description }) => (
                 <>
+                <marquee
+                 behavior="scroll"
+                  direction="up"
+                  onmouseout="this.start()"
+                  onmouseover="this.stop()"
+                  scrolldelay="1"
+                  scrollamount="1"
+                  >
                   <a href="https://www.aravalieducation.org">{title}</a>
                   <p id="newsupdate">{description}</p>
+                  </marquee>
                 </>
               ))}
-            </marquee>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../../firebase";
+import './AddNews.css'
 
 const AddNews = () => {
   const [values, setValues] = useState({
@@ -29,7 +30,7 @@ const AddNews = () => {
     }
   };
   return (
-    <div>
+    <div className='AddNews-main'>
       <input
         type="text"
         placeholder="Enter title of News"

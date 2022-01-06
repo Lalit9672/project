@@ -11,7 +11,7 @@
 } */
 
 /* ---------left side---------- */
-.blog {
+.home-blog {  
   display: flex;
   width: 100%;
   height: 100%;
@@ -20,33 +20,42 @@
 }
 
 .leftside {
-  padding: 1rem 0.5rem;
-  margin-left: 4rem;
+  padding: 0.5rem 0.5rem;
+  margin-left: 1rem;
 }
 
 .leftside h1 {
   font-size: 36px;
+  font-family: Calibri Light;
 }
 
 .leftside p {
   font-size: 16px;
   text-align: center;
-  margin: 1rem;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  word-wrap: break-word;
   color: #ff6900;
 }
 
 /* ------------- image slider----------- */
-.slidebar {
+.slidemain{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1.5rem 0rem;
+  flex-direction: column;
+}
+
+.slidebar {
+  margin: 1rem 0rem;
   background-image: url("./img1.jpg");
-  width: 99%;
-  height: 350px;
+  width: 94%;
+  height: 310px;
+  background-position: center;
   background-repeat: repeat-x;
-  animation: slider 20s infinite step-start;
-  box-shadow: 2px 2px 20px 1px #011010;
+  animation: slider 10s infinite step-start;
+  box-shadow: 1px 1px 10px 0.5px #505757;
 }
 
 @keyframes slider {
@@ -64,23 +73,31 @@
   }
 }
 
+.slides{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
 .slides button {
   font-size: 40px;
   color: white;
   cursor: pointer;
-  position: absolute;
   background-color: unset;
   border-style: none;
 }
 
-.left-btn {
-  left: 20;
+.left-btn{
+  align-content: flex-start;
+  align-self: center;
 }
 
-.right-btn {
-  right: 20;
-}
+.right-btn{
+  align-content: flex-end;
+  align-self: center;
 
+}
 /* -------image slider end --------*/
 .middle-div {
   display: flex;
@@ -156,7 +173,7 @@
     font-size: 30px;
   }
 
-  .leftside p {
+  .leftside strong {
     font-size: 15px;
   }
 
@@ -210,6 +227,10 @@
 
   .leftside h1 {
     font-size: 25px;
+  }
+
+  .leftside strong {
+    font-size: 13px;
   }
 
   .slidebar {

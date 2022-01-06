@@ -1,10 +1,10 @@
 import React from "react";
-import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import "./home.css";
 
 const Home = () => {
   return (
-      <div className="blog">
+      <div className="home-blog">
         <div className="leftside">
           <h1>Welcome to Journal of Indian Research</h1>
           <p>
@@ -15,11 +15,13 @@ const Home = () => {
           </p>
 
           {/* Slidebar Start */}
+          <div className="slidemain">
           <div className="slidebar">
             <div className="slides">
-              <button className="left-btn"><FaAngleLeft/></button>
-              <button className="right-btn"><FaAngleRight/></button>
+              <button className="left-btn"><BsChevronLeft/></button>
+              <button className="right-btn"><BsChevronRight/></button>
             </div>
+          </div>
           </div>
 
           {/* Slidebar End */}
