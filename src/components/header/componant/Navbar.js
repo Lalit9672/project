@@ -22,7 +22,7 @@ const Navbar = () => {
     <>
       <nav
         className="navbar"
-        style={{ height: width < 920 && !isMobileView ? "50px" : "auto" }}
+        style={{ height: width < 920 && !isMobileView ? "80px" : "auto" }}
       >
         <ul
           className={isMobileView ? "nav-link-mobileView" : "nav-items"}
