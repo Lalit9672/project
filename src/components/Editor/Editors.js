@@ -8,7 +8,7 @@ const Editors = () => {
       <div class="blog-post-img">
           <img src="/img/b.jpg" alt="" />
           <div class="blog-post-title">
-          <h1>Dr Ashok Kumar Gadiya</h1>
+          <h1>Dr Ash</h1>
           <span><br />
           C.A, Ph.D.<br />
           Chairperson, Mewar University<br />
