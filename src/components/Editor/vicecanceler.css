@@ -1,165 +1,131 @@
-*,
-*::before,
-*::after{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-
-}
-
-html{
-  font-family: 'Roboto',sans-serif;
+.blog {
+  font-family: "Roboto", sans-serif;
   font-size: 10px;
-
-}
-img{
-  width: 100%;
-
-}
-body{
-  width: 100%;
-  height: 100vh;
   display: flex;
-  align-items:left;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 2rem 1.5rem;
+  width: 100%;
+  /*margin-left: 10px;
+  margin-right: 30px; */
+}
+
+.blog-post {
+  padding: 1rem;
+  display: flex;
   justify-content: center;
-  background-color: #eeeeee;
-  padding:0 1.5rem;
-}
-.blog{
-  width: 100%;
-  margin-left: 100px;
-  margin-right: 30px;
-    
-}
-.blog-post{
-  width: 100%;
-  max-width: 98rem;
-  padding:2rem;
+  flex-direction: column;
   background-color: #ffff;
-  display: flex;
-  align-items:center;
-  border: radius 0.8em;
-  padding-top:  2rem;
-  padding-bottom: 40rem;
+  border-radius:   0.8em;
+  padding-top: 0.1rem;
+  padding-bottom: 1px;
+  margin-top: -350px;
   
+  font-family: "Calibri Light";
+  font-size: 15px;
+  font-weight: 400;
+  color: #202020;
 
 }
-.blog-post-img{
-  min-width: 20rem;
-  max-width: 20rem;
-  height: 12rem;
-  position: relative;
+
+.blog-post-img {
+  margin-left: 0.5rem;
 }
- .blog-post-img img{
-   width: 200px;
-   height: 200px;
-   object-fit: cover;
-   display: block;
-   border-radius: block;
-   border-radius: 0.8rem;
 
- }
-
- .blog-post-img::before{
-   content: "";
-   width: 120px;
-   height: 120px;
-   position: absolute;
-   top: 0;
-   left: 0;
- }
-
- .blog-post-title h1{
-   display: block;
-   color:rgba(200, 209, 27, 0.8);
-   font-size: 1.2rem;
-   font-weight: 700;
-   margin: .1rem 0; 
-   
- }
-
- .blog-post-title .blog-post-info span{
-   font-size:2.5rem;
-   margin: .8rem 0 .8rem;
-   text-transform: uppercase;
-   color:#182735;
- }
- .blog-post-info{
-   margin-left: 45px;
- }
-
- @media screen and (max-width:1068px) {
-
-  .blog-post{
-    max-width:80rem;
-     }
-     .editor{
-       max-width:10rem;
-       margin-left: 10rem;
-     }
-    .blog-post-img img{
-      min-width: 30rem;
-      max-width: 30rem;
-     }
-     
-   
-.blog-post .message {
-    margin-top:-350px;
-    margin-left: 700px;
-    padding-left: 200;
-    min-width: 30rem;
-    max-width: 30rem;
-
+.blog-post-img img {
+  width: 130px;
+  height: 130px;
+  border-radius: 0.8rem;
 }
- }
+
+.blog-post-img::before {
+  content: "";
+  width: 120px;
+  height: 120px;
+  top: 0;
+  left: 0;
+}
+
+.blog-post-title h1 {
+  color: rgba(200, 209, 27, 0.8);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 0.1rem 0;
+}
+
+.blog-post-title {
+  font-size: 0.7rem;
+  margin: 0.4rem 0.4rem;
+  text-transform: uppercase;
+  color: #182735;
+}
+
+.message {
+  font-family: "Calibri Light";
+  font-size: 15px;
+  font-weight: 400;
+  color: #202020;
+  padding: 10px;
+  line-height: 1.8;
+}
 
  @media screen and (max-width:868px) {
-   .blog-post{
-     padding-top:  10rem;
-     padding-left: 130px;
-     padding-right:130px;
-     padding-bottom:2rem;
+   .blog-post2{
+     padding-top:  30rem;
+     padding-left: 10px;
+     padding-right:10px;
+     padding-bottom:1rem;
      flex-direction: column;
    }
-   .blog-post-img img{
+   .blog-post-img2 img{
      min-width: 170px;
      max-width: 100vh;
      transform: translate(0, -8rem);
    }
-   .blog-post-info{
+   .blog-post-info2{
      margin-top:-50px;
-     margin-left: -50px;
-     padding-top:  10rem;
-     padding-left: 130px;
-     padding-right:130px;
-     padding-bottom:2rem;
-     flex-direction: column;
+     margin-left: -100px;
 
 
    }
    
-.blog-post .message p{ 
-    margin-top:100px;
-     margin-left: -350px;
-     padding-top:  -100rem;
-     padding-left: -230px;
-     padding-right:130px;
-     padding-bottom:2rem;
-     flex-direction: column;
+.blog-post2 .message2{ 
+  text-align: center;
+  
+  
     
 }
 
  }
-.blog-post .message p{
+.blog-post2 .message2{
 
-    margin-top: 490px;
-    margin-left: -680px;
-    padding-left: 300px;
+
+    margin-top: 380px;
+    padding-top: 200px;
+    margin-left: -650px;
+    padding-left: 90px;
     padding-right:10px;
     padding-bottom: 20px;
     color:rgba(16, 17, 3, 0.8);
-    font-size: 1.2rem;
-    font-weight: 700;
+    line-height: 1.8;
+    font-family: "Calibri Light";
+    font-size: 15px;
+    font-weight: 400;
+    color: #202020;
     
     
+}
+
+
+.title2{
+  color: rgba(39, 39, 37, 0.8);
+  margin-top: 20px;
+  padding-bottom: 0px;
+  padding: auto;
+  margin-left: 100px;
+  word-wrap: break-word;
+  font-weight: 700px;
+  font-size: 32px;
+  color: #000;
 }
