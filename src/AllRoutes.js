@@ -68,6 +68,8 @@ const AllRoutes = () => {
             element={<Home/>}
             />
 
+           
+
             <Route 
               path="/Callforpaper/Cpaper"
               element={<Cpaper />}
