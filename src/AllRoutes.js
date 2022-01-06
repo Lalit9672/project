@@ -19,7 +19,15 @@ import Aim from "./components/Aim/Aim";
 
 const AllRoutes = () => {
   return (
-    <div style={{ width: "90%", margin: "auto", overflowX: "hidden" }}>
+    <div
+      style={{
+        width: "90%",
+        marginLeft: "auto",
+        marginRight: "auto",
+        marginTop: "20px",
+        overflowX: "hidden",
+      }}
+    >
       <Router>
         <Header />
         <div className="respo">

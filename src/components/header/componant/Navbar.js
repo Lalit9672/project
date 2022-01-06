@@ -1,25 +1,27 @@
-import React, { useState,useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-import { navItems } from "./Navitems";
+import { AboutusDropdown, navItems } from "./Navitems";
 import Dropdown from "./Dropdown";
 import Guidlinesdrop from "./Guidlinesdrop";
 import Volumedrop from "./Volumedrop";
-import Editordrop from './Editordrop';
-import { FaAngleDown,FaAlignJustify,FaTimes } from "react-icons/fa";
+import Editordrop from "./Editordrop";
+import { FaAngleDown, FaAlignJustify, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
-  
   const [dropdown, setDrrodown] = useState(false);
   const [guidlinesdrop, setGuidline] = useState(false);
   const [volume, setVolume] = useState(false);
-  const[editor,setEditor]=useState(false)
-  const [isMobileView,setIsMobileView]=useState(false);
+  const [editor, setEditor] = useState(false);
+  const [isMobileView, setIsMobileView] = useState(false);
+
   return (
     <>
       <nav className="navbar">
-        <ul className={isMobileView?"nav-link-mobileView":"nav-items"}
-            onClick={()=>setIsMobileView(false)}>
+        <ul
+          className={isMobileView ? "nav-link-mobileView" : "nav-items"}
+          onClick={() => setIsMobileView(false)}
+        >
           {navItems.map((item) => {
             if (item.title === "Aboutus")
               return (
@@ -29,11 +31,34 @@ const Navbar = () => {
                   onMouseEnter={() => setDrrodown(true)}
                   onMouseLeave={() => setDrrodown(false)}
                 >
-                  <Link to={item.path}>{item.title}<i className="icon"><FaAngleDown/></i></Link>
-                  {dropdown && <Dropdown />}
+                  <Link to={item.path}>
+                    {item.title}
+                    {!isMobileView && (
+                      <i className="icon">
+                        <FaAngleDown />
+                      </i>
+                    )}
+                  </Link>
+                  {!isMobileView && dropdown && <Dropdown />}
                 </li>
               );
 
+            if (item.title === "Aboutus") {
+              console.log("comming to aboutus");
+              AboutusDropdown.map((item) => {
+                return (
+                  <li key={item.id}>
+                    <Link
+                      to={item.path}
+                      className={item.cName}
+                      //onClick={() => setDropdown(false)}
+                    >
+                      {item.title}
+                    </Link>
+                  </li>
+                );
+              });
+            }
             if (item.title === "issue of our journel")
               return (
                 <li
@@ -42,8 +67,15 @@ const Navbar = () => {
                   onMouseEnter={() => setVolume(true)}
                   onMouseLeave={() => setVolume(false)}
                 >
-                  <Link to={item.path}>{item.title}<i className="icon"><FaAngleDown/></i></Link>
-                  {volume && <Volumedrop />}
+                  <Link to={item.path}>
+                    {item.title}
+                    {!isMobileView && (
+                      <i className="icon">
+                        <FaAngleDown />
+                      </i>
+                    )}
+                  </Link>
+                  {!isMobileView && volume && <Volumedrop />}
                 </li>
               );
 
@@ -55,11 +87,18 @@ const Navbar = () => {
                   onMouseEnter={() => setGuidline(true)}
                   onMouseLeave={() => setGuidline(false)}
                 >
-                  <Link to={item.path}>{item.title}<i className="icon"><FaAngleDown/></i></Link>
-                  {guidlinesdrop && <Guidlinesdrop />}
+                  <Link to={item.path}>
+                    {item.title}
+                    {!isMobileView && (
+                      <i className="icon">
+                        <FaAngleDown />
+                      </i>
+                    )}
+                  </Link>
+                  {!isMobileView && guidlinesdrop && <Guidlinesdrop />}
                 </li>
               );
-              if (item.title === "Editorial")
+            if (item.title === "Editorial")
               return (
                 <li
                   key={item.id}
@@ -67,31 +106,39 @@ const Navbar = () => {
                   onMouseEnter={() => setEditor(true)}
                   onMouseLeave={() => setEditor(false)}
                 >
-                  <Link to={item.path}>{item.title}<i className="icon"><FaAngleDown/></i></Link>
-                  {editor && <Editordrop/>}
+                  <Link to={item.path}>
+                    {item.title}
+                    {!isMobileView && (
+                      <i className="icon">
+                        <FaAngleDown />
+                      </i>
+                    )}
+                  </Link>
+                  {!isMobileView && editor && <Editordrop />}
                 </li>
               );
-
 
             return (
               <li key={item.id} className={item.cName}>
                 <Link to={item.path}>{item.title}</Link>
               </li>
-
             );
           })}
-
         </ul>
-         <button className='mobile-menu-icon'
-            onClick={()=>setIsMobileView(!isMobileView)}
-            >
-          {isMobileView ?(
-        <i className='after-icon'><FaTimes/></i>
-          ):(
-            <i className='after-icon'><FaAlignJustify/></i>
+        <button
+          className="mobile-menu-icon"
+          onClick={() => setIsMobileView(!isMobileView)}
+        >
+          {isMobileView ? (
+            <i className="after-icon">
+              <FaTimes />
+            </i>
+          ) : (
+            <i className="after-icon">
+              <FaAlignJustify />
+            </i>
           )}
         </button>
-        
       </nav>
     </>
   );
