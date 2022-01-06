@@ -91,13 +91,17 @@
 .left-btn{
   align-content: flex-start;
   align-self: center;
+  margin-top:8rem ;
+  margin-left: 1rem;
 }
 
 .right-btn{
   align-content: flex-end;
   align-self: center;
-
+  margin-top: 8rem;
+  margin-right: 1rem;
 }
+
 /* -------image slider end --------*/
 .middle-div {
   display: flex;
@@ -239,6 +243,18 @@
 
   .slides button {
     font-size: 25px;
+  }
+
+  .left-btn{
+    align-content: flex-start;
+    align-self: center;
+    margin-top:5rem ;
+    margin-left: 0.5rem;
+  }
+  
+  .right-btn{
+    margin-top: 5rem;
+    margin-right: 0.5rem;
   }
 
   .middle-div a {
