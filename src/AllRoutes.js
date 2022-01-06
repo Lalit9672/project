@@ -24,15 +24,7 @@ import Guidlinesub from "./components/submissions/Guidlinesub";
 
 const AllRoutes = () => {
   return (
-    <div
-      style={{
-        width: "90%",
-        marginLeft: "auto",
-        marginRight: "auto",
-        marginTop: "20px",
-        overflowX: "hidden",
-      }}
-    >
+    <div className="repo" >
       <Router>
         <Header />
         <div className="respo">
