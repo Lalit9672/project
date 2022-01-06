@@ -1,10 +1,11 @@
 import React from 'react'
+import "./guidesub.css"
 
-const Submissionguide = () => {
+const Guidlinesub = () => {
     return (
-   <>
-    <div className="get">
-   <h1 className="set"><b>Submission Guidelines</b></h1>
+       <>
+         <div className="get">
+        <h1 className="set"><b>Submission Guidelines</b></h1>
          <p className="chal">Journal of Indian Research accepts manuscripts of 10-25 double spaced pages (font should be <b>Times New Roman</b> 12)<br/> including references and notes. </p>
          <p className="chal">The journal publishes theory-based and critical essays of the highest quality and book reviews in English. All papers are peer-reviewed by<br/> peers who are active in the relevant fields of research, before publication.<br/> Articles should be sent to jir@mewaruniversity.org.</p>
          <h3 style={{color:"peru"}}>Submission of Typescripts</h3>
@@ -21,8 +22,8 @@ const Submissionguide = () => {
             <li>Reference in APA style</li>
         </ul>
     </div>
-    </>
+       </>
     )
 }
 
-export default Submissionguide
+export default Guidlinesub

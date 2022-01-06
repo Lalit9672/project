@@ -18,8 +18,8 @@ import Cpaper from './components/Callforpaper/Cpaper'
 
 import About from "./components/about/About";
 import Aim from "./components/Aim/Aim";
-import BookGuidline from "./components/Submission/BookGuidline";
-// import Submissionguide from './components/Submission/Submissionguide';
+import Booksubmission from './components/submissions/Booksubmission';
+import Guidlinesub from "./components/submissions/Guidlinesub";
 
 
 const AllRoutes = () => {
@@ -78,8 +78,9 @@ const AllRoutes = () => {
             <Route path="/firebase" element={<Home />} />
             <Route path="/firebase/Newsfirebase" element={<Newsfirebase />} />
             <Route path="/Aim/Aim" element={<Aim />} />
-            <Route path ="/submission/BookGuidlines" element ={<BookGuidline/>} />
-           {/* <Route path ="/submission/Submissionguide" element ={<Submissionguide/>}/> */}
+            <Route path="/submission/Booksubmission" element={<Booksubmission />} />
+            <Route path ="/submission/Guidlinesub" element={<Guidlinesub/>}/>
+          
 
           </Routes>
           <Sidebar />
