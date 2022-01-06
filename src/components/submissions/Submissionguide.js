@@ -2,17 +2,7 @@ import React from 'react'
 
 const Submissionguide = () => {
     return (
-    //     <div className="get">
-          
-
-
-
-
-
-
-
-
-    // </div>
+   <>
     <div className="get">
    <h1 className="set"><b>Submission Guidelines</b></h1>
          <p className="chal">Journal of Indian Research accepts manuscripts of 10-25 double spaced pages (font should be <b>Times New Roman</b> 12)<br/> including references and notes. </p>
@@ -31,7 +21,7 @@ const Submissionguide = () => {
             <li>Reference in APA style</li>
         </ul>
     </div>
-    
+    </>
     )
 }
 
