@@ -25,20 +25,21 @@ const Mainnavbar = () => {
             {/* <i className="searcgh"><FaSearch/></i>  */}
           </div>
 
-          <div className="seacrh-icon">
-            <i className="searcgh">
-              <FaSearch onClick={() => setSearch(false)} />
-            </i>
+          <div className="seacrh-icon"  onClick={() => setSearch(!isSearch)} >
+           
+
+            {isSearch ? (
+              <i className="searcgh">
+                <FaTimes />
+              </i>
+            ) : (
+              <i className="after-icon">
+                <FaSearch />
+              </i>
+            )}
+           
           </div>
-          <div
-            className={isSearch ? "nav-link-search" : "search"}
-            onClick={() => setSearch(!isSearch)}
-          >
-            <form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search" />
-              <button type="submit">Submit</button>
-            </form>
-          </div>
+        
 
           <button
             className="mobile-menu-icon"
@@ -55,6 +56,12 @@ const Mainnavbar = () => {
             )}
           </button>
         </div>
+        <div className={isSearch ? "nav-link-search" : "search"} onClick={() => setSearch(true)} >
+            <form >
+              <input type="text" placeholder="Search.." name="search" />
+              <button type="submit">Submit</button>
+            </form>
+          </div>
       </div>
     </>
   );

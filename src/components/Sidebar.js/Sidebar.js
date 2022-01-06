@@ -1,7 +1,25 @@
 import React from 'react'
+// import firebaseapp from './firebase'
+// import { initializeApp } from "firebase/app";
+// import { getFirestore, collection, getDocs } from 'firebase/firestore/lite';
 import "./sidebar.css"
 
 const Sidebar = () => {
+
+        // window.addEventListener('load', () => {
+        //     Fetchdata();
+        //   });
+
+        //   const Fetchdata = ()=>{
+        //     db.collection("data").get().then((querySnapshot) => {
+        //         querySnapshot.forEach(element => {
+        //             var data = element.data();
+        //             console.log(data);
+        //         });
+        //     })
+        // }
+
+
     return (
         <>
         <div className="rightside">
@@ -30,4 +48,4 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar
+export default Sidebar;

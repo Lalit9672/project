@@ -9,15 +9,21 @@ import Editordrop from "./Editordrop";
 import { FaAngleDown, FaAlignJustify, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
+  const [width, setWidth] = useState(window.innerWidth);
   const [dropdown, setDrrodown] = useState(false);
   const [guidlinesdrop, setGuidline] = useState(false);
   const [volume, setVolume] = useState(false);
   const [editor, setEditor] = useState(false);
   const [isMobileView, setIsMobileView] = useState(false);
-
+  window.addEventListener("resize", () => {
+    setWidth(window.innerWidth);
+  });
   return (
     <>
-      <nav className="navbar">
+      <nav
+        className="navbar"
+        style={{ height: width < 920 && !isMobileView ? "50px" : "auto" }}
+      >
         <ul
           className={isMobileView ? "nav-link-mobileView" : "nav-items"}
           onClick={() => setIsMobileView(false)}
@@ -130,7 +136,7 @@ const Navbar = () => {
           onClick={() => setIsMobileView(!isMobileView)}
         >
           {isMobileView ? (
-            <i className="after-icon">
+            <i className="FaTimes ">
               <FaTimes />
             </i>
           ) : (

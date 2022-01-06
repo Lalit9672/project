@@ -1,0 +1,19 @@
+.repo
+{
+    width: 90%;
+    margin: auto;
+    overflow-x: hidden;
+}
+@media screen and (max-width:951px)
+{
+    .repo
+    {
+        width: 100%;
+        margin: 0;
+    }
+    .respo
+    {
+        margin-left:0 ;
+        width: 100%;
+    }
+}
