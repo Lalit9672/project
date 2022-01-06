@@ -42,7 +42,7 @@ import "./Newsfirebase.css"
                     alert('Data Saved Successfully and thanks gottu for stay here to see my work')
                     };
                 } else {
-                    alert('gotti Please Fill all the spaces')
+                    alert('gotti Please Fill all the blank spaces')
                 }
 
 
