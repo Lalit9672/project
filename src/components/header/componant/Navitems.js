@@ -89,7 +89,7 @@ export const Guidlinesdropdown = [
   {
     id: 1,
     title: "BooklineGuildline",
-    path: "./marketing",
+    path: "./submission/BookGuidlines",
     cName: "submenu-item",
   },
   {
