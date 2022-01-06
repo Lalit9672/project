@@ -57,7 +57,7 @@ const Mainnavbar = () => {
           </button>
         </div>
         <div className={isSearch ? "nav-link-search" : "search"} onClick={() => setSearch(true)} >
-            <form action="/action_page.php">
+            <form >
               <input type="text" placeholder="Search.." name="search" />
               <button type="submit">Submit</button>
             </form>

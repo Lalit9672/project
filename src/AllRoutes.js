@@ -1,4 +1,5 @@
 import React from "react";
+import "./respo.css";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
@@ -13,16 +14,18 @@ import Chairman from "./components/Editor/Chairman";
 import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
-import Newsfirebase from './components/firebase/Newsfirebase';
-import Cpaper from './components/Callforpaper/Cpaper'
-import Booksubmission from "./submissin/Booksubmission";
-import Submissionguide from './submission/Submissionguide';
+import Newsfirebase from "./components/firebase/Newsfirebase";
+import Cpaper from "./components/Callforpaper/Cpaper";
+
 import About from "./components/about/About";
 import Aim from "./components/Aim/Aim";
+import Booksubmission from "./components/submissions/Booksubmission";
+import Guidlinesub from "./components/submissions/Guidlinesub";
 
 const AllRoutes = () => {
   return (
-    <div style={{ width: "90%", margin: "auto", overflowX: "hidden" }}>
+    
+     <div className="repo" > 
       <Router>
         <Header />
         <div className="respo">
@@ -61,23 +64,18 @@ const AllRoutes = () => {
               element={<MissionAndVision />}
             />
 
-            <Route
-            path="/Callforpaper"
-            element={<Home/>}
-            />
+            <Route path="/Callforpaper" element={<Home />} />
 
-           
-
-            <Route 
-              path="/Callforpaper/Cpaper"
-              element={<Cpaper />}
-            />
+            <Route path="/Callforpaper/Cpaper" element={<Cpaper />} />
             <Route path="/about/Objectives" element={<Objectives />} />
             <Route path="/firebase" element={<Home />} />
             <Route path="/firebase/Newsfirebase" element={<Newsfirebase />} />
             <Route path="/Aim/Aim" element={<Aim />} />
-            <Route path="/submission/Booksubmission" element={<Booksubmission />} />
-            <Route path= "/submission/Submissionguide" element={<Submissionguide/>}/>
+            <Route
+              path="/submission/Booksubmission"
+              element={<Booksubmission />}
+            />
+            <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
           </Routes>
           <Sidebar />
         </div>

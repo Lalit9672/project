@@ -35,7 +35,7 @@ export const navItems = [
       {
         id: 6,
         title: "Call for paper",
-        path: "./call",
+        path: "./components/Callforpaper/Cpaper",
         cName: "nav-item",
       },
       {
@@ -89,13 +89,13 @@ export const Guidlinesdropdown = [
   {
     id: 1,
     title: "BooklineGuildline",
-    path: "./marketing",
+    path: "./submission/Booksubmission",
     cName: "submenu-item",
   },
   {
     id: 2,
     title: "SubmissionGuidline",
-    path: "./consulting",
+    path: "./submission/Guidlinesub",
     cName: "submenu-item",
   },
 ];
