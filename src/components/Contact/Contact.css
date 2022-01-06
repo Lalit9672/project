@@ -3,22 +3,6 @@
     margin: 0;
     padding: 0;
 }
-
-.col-md{
-    position: relative;
-    min-height: 1px;
-    padding-left: 30px;
-    padding-right: 30px;
-    
-}
-
-article{
-    clear: none;
-    float: left;
-    margin-bottom: 10px;
-    width: 100%;
-}
-
 .body{
     font-family: "Calibri Light";
     font-size: 15px;
@@ -27,7 +11,22 @@ article{
     line-height: 1.8;
     word-wrap: break-word;
     width: 100%;
+    padding-left: 4.8%;
 }
+
+.col-md{
+    position: relative;
+    min-height: 1px;
+    padding-left: 30px;
+    padding-right: 30px;   
+}
+
+article{
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
 
 .contact-title{
     word-wrap: break-word;
@@ -45,55 +44,47 @@ article{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
 .contact-title{
     line-height: 1.1;
 }
 
 .contact-title{
-    margin-right: 0px;
-    margin-left: 0px;
-}
-.contact-title{
-    display: block;
+    display: flex;
+    flex-shrink: 2;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
 
 table{
     width: 100%;
-    border: 2px solid black;
     border-spacing: 0;
     display: table;
     text-indent: initial;
     border-color: grey;
-    -webkit-border-horizontal-spacing: 0px;
-    -webkit-border-vertical-spacing: 0px;
+    overflow:auto;
 }
 
 
 
 
 tbody {
+    overflow: auto;
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
-    border: 2px solid black;
 }
 
 tr {
     display: table-row;
     vertical-align: inherit;
-    border-color: inherit;
-    border: 2px solid black;
 }
-
 td{
     padding: 6px;
     padding-top: 6px;
     padding-right: 6px;
     padding-bottom: 6px;
     padding-left: 6px;
-    border: 2px solid black;
 }
 
 td {
@@ -116,7 +107,6 @@ div{
     overflow-x: auto;
 }
 figure {
-    /* display: block; */
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 40px;
@@ -127,19 +117,3 @@ figure {
     border-collapse: collapse;
     width: 100%;
 }
-
-@media only screen and (max-width:50%)
-{
-    table{
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width:480px)
-{
-    table{
-        width: 100%;
-    }
-}
-
-
