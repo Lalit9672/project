@@ -21,11 +21,11 @@ import About from "./components/about/About";
 import Aim from "./components/Aim/Aim";
 import Booksubmission from "./components/submissions/Booksubmission";
 import Guidlinesub from "./components/submissions/Guidlinesub";
+import AddNews from "./components/admin/AddNews";
 
 const AllRoutes = () => {
   return (
-    
-     <div className="repo" > 
+    <div className="repo" >
       <Router>
         <Header />
         <div className="respo">
@@ -87,6 +87,7 @@ const AllRoutes = () => {
               element={<Booksubmission />}
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
+            <Route path="/admin/create/new" element={<AddNews />} />
           </Routes>
           <Sidebar />
         </div>
