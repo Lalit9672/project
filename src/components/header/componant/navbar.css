@@ -19,10 +19,11 @@
 .icon {
   margin-left: 5px;
   position: absolute;
-  top: 16px;
+  top: 35px;
 }
 .nav-item {
   min-width: fit-content;
+
 }
 .nav-items a {
   color: white;
