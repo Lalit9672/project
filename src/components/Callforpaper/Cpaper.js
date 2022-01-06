@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cpaper.css";
 
-const Cpaper = () => {
+const cpaper = () => {
   return (
     <>
     <div className="main-block">
@@ -72,4 +72,4 @@ const Cpaper = () => {
   );
 };
 
-export default Cpaper;
+export default cpaper;
