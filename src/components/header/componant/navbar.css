@@ -120,11 +120,28 @@
     text-decoration: none;
     text-align: center;
     margin-top: 2rem;
-    
+    padding-left: 15px;
     display: flex;
     flex-direction:row ;
     }
     
+    .nav-link-mobileView a:hover{
+        background-color: white;
+        padding: 4px 3px;
+        width: 20%;
+        color: black;
+        
+    }
+    .mobile-menu-icon
+    {
+        position: fixed;
+        right: 0;
+        height: 30px;
+        width: 50px;
+    
+    }
+    
+  
 
 }
 
