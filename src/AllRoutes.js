@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./respo.css";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/header/Header";
@@ -25,6 +25,7 @@ import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
 
 const AllRoutes = () => {
+  const [showSideBar, setShowSideBar] = useState(true);
   return (
     <div className="repo">
       <Router>
@@ -50,7 +51,6 @@ const AllRoutes = () => {
             path="/Editor/editornew"
             element={<editornew />}
             /> */}
-
 
             {/* <Route
               path="/Editor/chairepersons-message"
@@ -83,7 +83,7 @@ const AllRoutes = () => {
 
             <Route path="/about/Objectives" element={<Objectives />} />
             <Route path="/firebase" element={<Home />} />
-            <Route path="/firebase/Newsfirebase" element={<Newsfirebase />} />
+
             <Route path="/Aim/Aim" element={<Aim />} />
             <Route
               path="/submission/Booksubmission"
@@ -91,9 +91,13 @@ const AllRoutes = () => {
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
             <Route path="/admin/create/new" element={<AddNews />} />
-            <Route path="/turnaround/TAD" element={<TAD/>}/>
+            <Route
+              setShowSideBar={setShowSideBar}
+              path="/turnaround/TAD"
+              element={<TAD setShowSideBar={setShowSideBar} />}
+            />
           </Routes>
-          <Sidebar />
+          {showSideBar && <Sidebar />}
         </div>
         <Footer />
       </Router>

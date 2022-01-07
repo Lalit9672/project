@@ -1,32 +1,30 @@
-.main-intro{
-        width: 100%;
-        background-color: white;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
+.main-intro {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 
- .Title{
-    font-size: 36px;
-    word-wrap: break-word;
-    padding-left: 30px;
+.Title {
+  font-size: 36px;
+  word-wrap: break-word;
 }
 
-div .entry-content{
-    line-height: 1.8;
+div .entry-content {
+  line-height: 1.8;
 }
 
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-p .content-page{
-    color: #202020;
-    font-size:15px;
+p .content-page {
+  color: #202020;
+  font-size: 15px;
 }
 
-
-div .main-content-about{
-        margin-left: 1rem;
-        padding: 0.5rem 0.5rem;
+div .main-content-about {
+  margin-left: 1rem;
+  padding: 0.5rem 0.5rem;
 }
