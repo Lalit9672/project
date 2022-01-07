@@ -13,8 +13,8 @@ import Editor from "./components/Editor/Editors";
 // import editornew from "./components/Editor/editornew";
 // import Chairman from "./components/Editor/Chairman";
 // import Vicecanceler from "./components/Editor/Vicecanceler";
-// import Editorsmessage from "./components/Editor/Editorsmessage";
-// import Associate from "./components/Editor/Associate";
+import Editorsmessage from "./components/Editor/Editorsmessage";
+import Associate from "./components/Editor/Associate";
 import Newsfirebase from "./components/firebase/Newsfirebase";
 import Cpaper from "./components/Callforpaper/Cpaper";
 import TAD from "./components/TurnAroundDates/TAD";
@@ -23,6 +23,8 @@ import Aim from "./components/Aim/Aim";
 import Booksubmission from "./components/submissions/Booksubmission";
 import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
+import Chairman from "./components/Editor/Chairman";
+import Vicecanceler from "./components/Editor/Vicecanceler";
 
 const AllRoutes = () => {
   const [showSideBar, setShowSideBar] = useState(true);
@@ -47,12 +49,9 @@ const AllRoutes = () => {
 
             <Route path="/Editor" element={<Home />} />
             <Route path="/Editor/Editors" element={<Editor />} />
-            {/* <Route 
-            path="/Editor/editornew"
-            element={<editornew />}
-            /> */}
+            <Route path="/Editor/editornew" element={<editornew />} />
 
-            {/* <Route
+            <Route
               path="/Editor/chairepersons-message"
               element={<Chairman />}
             />
@@ -71,7 +70,7 @@ const AllRoutes = () => {
             <Route
               path="/about/MissionAndVision"
               element={<MissionAndVision />}
-            /> */}
+            />
 
             <Route path="/Callforpaper" element={<Home />} />
 

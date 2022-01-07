@@ -17,16 +17,15 @@
   justify-content: center;
   flex-direction: column;
   background-color: #ffff;
-  border-radius:   0.8em;
+  border-radius: 0.8em;
   padding-top: 0.1rem;
   padding-bottom: 1px;
   margin-top: -350px;
-  
+
   font-family: "Calibri Light";
   font-size: 15px;
   font-weight: 400;
   color: #202020;
-
 }
 
 .blog-post-img {
@@ -50,6 +49,7 @@
 .blog-post-title h1 {
   color: rgba(200, 209, 27, 0.8);
   font-size: 1.2rem;
+  padding-top: 0px !important;
   font-weight: 700;
   margin: 0.1rem 0;
 }
@@ -70,55 +70,44 @@
   line-height: 1.8;
 }
 
- @media screen and (max-width:868px) {
-   .blog-post2{
-     padding-top:  30rem;
-     padding-left: 10px;
-     padding-right:10px;
-     padding-bottom:1rem;
-     flex-direction: column;
-   }
-   .blog-post-img2 img{
-     min-width: 170px;
-     max-width: 100vh;
-     transform: translate(0, -8rem);
-   }
-   .blog-post-info2{
-     margin-top:-50px;
-     margin-left: -100px;
+@media screen and (max-width: 868px) {
+  .blog-post2 {
+    padding-top: 30rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 1rem;
+    flex-direction: column;
+  }
+  .blog-post-img2 img {
+    min-width: 170px;
+    max-width: 100vh;
+    transform: translate(0, -8rem);
+  }
+  .blog-post-info2 {
+    margin-top: -50px;
+    margin-left: -100px;
+  }
 
-
-   }
-   
-.blog-post2 .message2{ 
-  text-align: center;
-  
-  
-    
+  .blog-post2 .message2 {
+    text-align: center;
+  }
+}
+.blog-post2 .message2 {
+  margin-top: 380px;
+  padding-top: 200px;
+  margin-left: -650px;
+  padding-left: 90px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  color: rgba(16, 17, 3, 0.8);
+  line-height: 1.8;
+  font-family: "Calibri Light";
+  font-size: 15px;
+  font-weight: 400;
+  color: #202020;
 }
 
- }
-.blog-post2 .message2{
-
-
-    margin-top: 380px;
-    padding-top: 200px;
-    margin-left: -650px;
-    padding-left: 90px;
-    padding-right:10px;
-    padding-bottom: 20px;
-    color:rgba(16, 17, 3, 0.8);
-    line-height: 1.8;
-    font-family: "Calibri Light";
-    font-size: 15px;
-    font-weight: 400;
-    color: #202020;
-    
-    
-}
-
-
-.title2{
+.title2 {
   color: rgba(39, 39, 37, 0.8);
   margin-top: 20px;
   padding-bottom: 0px;
