@@ -10,7 +10,6 @@ import MissionAndVision from "./components/about/MissionAndVision";
 import Sidebar from "./components/Sidebar.js/Sidebar";
 import Contact from "./components/Contact/Contact";
 import Editor from "./components/Editor/Editors";
-import editornew from "./components/Editor/editornew";
 import Chairman from "./components/Editor/Chairman";
 import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
@@ -46,10 +45,6 @@ const AllRoutes = () => {
 
             <Route path="/Editor" element={<Home />} />
             <Route path="/Editor/Editors" element={<Editor />} />
-            <Route 
-            path="/Editor/editornew"
-            element={<editornew />}
-            />
 
 
             <Route
