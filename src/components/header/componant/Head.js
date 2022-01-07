@@ -6,7 +6,7 @@ const Head = () => {
         <>
         
             <div className='header-img'>
-                <img src="http://jir.mewaruniversity.org/wp-content/uploads/2021/04/cropped-header_jir_mewar_logo_1-1-scaled-1.jpg"/>
+                <img src="https://www.aravalieducation.org/wp-content/uploads/2021/07/Aravali-Banner.jpeg"/>
             </div>
         
         
