@@ -90,13 +90,9 @@
 
 .left-btn{
   align-content: flex-start;
-<<<<<<< HEAD
-  align-self: center;  
-=======
   align-self: center;
   margin-top:8rem ;
   margin-left: 1rem;
->>>>>>> 549b5f2ff8cea40a45af0eb7598d58f0ecd9764b
 }
 
 .right-btn{
