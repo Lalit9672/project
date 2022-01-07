@@ -1,0 +1,124 @@
+.chairman{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-color: white;
+}
+
+.chairman-blog{
+  margin-left: 1rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.chairman-blog-post{
+  /* display: flex;
+  justify-content: flex-start;
+  flex-direction: column; */
+}
+
+.blog-post-img{
+  width: 10rem;
+  height: 12rem;
+  position: relative;
+}
+
+ .blog-post-img img{
+   width: 200px;
+   height: 200px;
+   object-fit: cover;
+   display: block;
+   border-radius: block;
+   border-radius: 0.8rem;
+ }
+
+ .blog-post-img1::before{
+   content: "";
+   width: 120px;
+   height: 120px;
+   position: absolute;
+   top: 0;
+   left: 0;
+ }
+
+ .blog-post-title h1{
+   padding-top: 100px;
+   color:rgba(200, 209, 27, 0.8);
+   font-size: 1.2rem;
+   font-weight: 700;
+   margin: .1rem 0;
+ }
+.blog-post-title1{
+  margin-left: 10px;
+}
+ .blog-post-title1 .blog-post-info1 span{
+   font-size:2.5rem;
+   margin: .8rem 0 .8rem;
+   text-transform: uppercase;
+   color:#182735;
+ }
+
+ .blog-post-info{
+   margin-left: 1px;
+ }
+
+ .chairman-message{
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   flex-direction: column;
+   padding-top: 3rem;
+   padding-bottom: 3rem;
+ }
+
+ @media screen and (max-width:1068px) {
+
+  .blog-post1{
+    max-width:80rem;
+     }
+     .editor1{
+       max-width:10rem;
+       margin-left: 10rem;
+     }
+    .blog-post-img1 img{
+      min-width: 30rem;
+      max-width: 30rem;
+     }
+     
+   
+.blog-post1 .message1{
+    padding-left: 120px;
+    max-width:80rem;
+    margin-left: 110rem;
+
+}
+ }
+
+ @media screen and (max-width:868px) {
+   .blog-post1{
+     padding-top:  30rem;
+     padding-left: 10px;
+     padding-right:10px;
+     padding-bottom:1rem;
+     flex-direction: column;
+   }
+   .blog-post-img1 img{
+     min-width: 170px;
+     max-width: 100vh;
+     transform: translate(0, -8rem);
+   }
+   .blog-post-info1{
+     margin-top:-50px;
+     margin-left: -100px;
+
+
+   }
+   
+.blog-post1 .message1{ 
+  text-align: center;
+  
+  
+    
+}
+
+ }

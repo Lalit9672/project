@@ -109,7 +109,7 @@ const Editors = () => {
         <div class="main-div">
         <div className="flex-set">
             <div class="blog-post-img">
-            <img src="/img/a.jp2g" alt="" />
+            <img src="/img/a.jpg" alt="" />
             </div>
             <div class="blog-post-title">
             <h1>Dr Ahsan Z. Rizvi</h1>
