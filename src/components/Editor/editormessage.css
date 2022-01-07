@@ -1,17 +1,37 @@
-.editormsg{
+.editors{
+    width: 100%;
+    background-color: white;
     display: flex;
     justify-content: flex-start;
-    width: 100%;
+    flex-direction: column;
 }
 
-.editormsg-blog{
-    padding: 50px 0px;
+.editors-blog{
+    padding: 1rem;
+    margin-left: 1rem;
 }
 
-.edi-blog-post{
-    width: 100%;
+.editors-blog-post-img{
+    padding-top: 0.5rem;
 }
 
-.edot-message{
-    width: 100%;
+.editors-blog-post-img img{
+    height: 150px;
+    width: 150px;
+}
+
+.editors-flex-set{
+    display: flex;
+  }
+
+.editors-blog-post-title{
+    padding-left: 1rem;
+}  
+
+.editors-message p{
+    font-size: 16px;
+    line-height: 1.2;
+    word-wrap: break-word;
+    padding: 2rem 0rem;
+    margin-left: 1rem;
 }

@@ -6,31 +6,26 @@ const Associate = () => {
     <div className='associate'>
       <div class="associate-blog">
         <div class="associate-blog-post">
+          <h1>Associate Editor's Message</h1>
+          <div className="associate-flex-set">
           <div class="associate-blog-post-img">
             <img src="/img/f.png" alt="" />
           </div>
-          <div class="associate-blog-post-info">
             <div class="associate-blog-post-title">
-              <h1 class="associate-blog-post-title">Dr Ashok Kumar Gadiya</h1>
-              <span>
-                <br />
-                C.A, Ph.D.
-                <br />
-                <br />
-                Chairperson, Mewar University
-                <br />
-                <br />
-                Phone: 9891****93
-                <br />
-                <br />
-                Email:akg@mewruniversity.com
-                <br />
-                <br />
-                Profile
-                <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
-              </span>
-            </div>
-          </div>
+                  <h1>Shashank Kumar Drivedi</h1>
+                <span>
+                  C.A, Ph.D.<br />
+                  Chairperson, Mewar University<br />
+                  Phone: 9891****93<br />
+                  Email:akg@mewruniversity.com<br />
+                  Profile :
+                  <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+                </span>
+                </div>
+                </div>
+                </div>
+
+
           <div class="associate-message">
             <p>
               Welcome to the online edition of Indian Journal Research (IJR).
@@ -58,9 +53,8 @@ const Associate = () => {
               editors for their valuable suggestion.
             </p>
           </div>
-        </div>
-      </div>
-    </div>
+          </div>
+          </div>
   );
 };
 

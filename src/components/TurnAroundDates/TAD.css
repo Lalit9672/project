@@ -78,10 +78,6 @@ tr{
 }
 
 .has-row{
-    /* font-weight: bold; */
-}
-
-.has-row{
     display: table-cell;
     vertical-align: inherit;
 }
@@ -92,10 +88,6 @@ tr{
 
 .has-row-2{
     padding: 6px;
-}
-
-.has-row-2{
-    /* font-weight: bold; */
 }
 
 .has-row-2{
