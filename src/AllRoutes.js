@@ -9,18 +9,20 @@ import Objectives from "./components/about/Objectives";
 import MissionAndVision from "./components/about/MissionAndVision";
 import Sidebar from "./components/Sidebar.js/Sidebar";
 import Contact from "./components/Contact/Contact";
-import Editor from "./components/Editor/Editors";
+// import Editor from "./components/Editor/Editors";
+import editornew from "./components/Editor/editornew";
 import Chairman from "./components/Editor/Chairman";
 import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
 import Newsfirebase from "./components/firebase/Newsfirebase";
 import Cpaper from "./components/Callforpaper/Cpaper";
-
+import TAD from "./components/TurnAroundDates/TAD";
 import About from "./components/about/About";
 import Aim from "./components/Aim/Aim";
 import Booksubmission from "./components/submissions/Booksubmission";
 import Guidlinesub from "./components/submissions/Guidlinesub";
+import AddNews from "./components/admin/AddNews";
 
 const AllRoutes = () => {
   return (
@@ -41,7 +43,15 @@ const AllRoutes = () => {
             />
             <Route path="/Contact" element={<Home />} />
             <Route path="/Contact/Contact" element={<Contact />} />
-            <Route path="/Editor/Editor" element={<Editor />} />
+
+            <Route path="/Editor" element={<Home />} />
+            {/* <Route path="/Editor/Editors" element={<Editor />} /> */}
+            <Route 
+            path="/Editor/editornew"
+            element={<editornew />}
+            />
+
+
             <Route
               path="/Editor/chairepersons-message"
               element={<Chairman />}
@@ -65,7 +75,18 @@ const AllRoutes = () => {
 
             <Route path="/Callforpaper" element={<Home />} />
 
-            <Route path="/Callforpaper/Cpaper" element={<Cpaper />} />
+            <Route 
+            path="/Callforpaper/Cpaper" 
+            element={<Cpaper />} 
+            />
+
+            <Route path="/TurnAroundDates" element={<Home />} />
+
+            <Route 
+            path="/TurnAroundDates/TAD"
+            element={<TAD />}
+            />
+
             <Route path="/about/Objectives" element={<Objectives />} />
             <Route path="/firebase" element={<Home />} />
             <Route path="/firebase/Newsfirebase" element={<Newsfirebase />} />
@@ -75,6 +96,7 @@ const AllRoutes = () => {
               element={<Booksubmission />}
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
+            <Route path="/admin/create/new" element={<AddNews />} />
           </Routes>
           <Sidebar />
         </div>
