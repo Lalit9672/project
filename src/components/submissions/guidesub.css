@@ -1,5 +1,9 @@
 
-
+.set
+{
+    font-size: 40px;
+    padding-left: 25px;
+}
 .dhol{
     font-family: system-ui;
 }

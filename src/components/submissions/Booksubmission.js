@@ -2,9 +2,9 @@ import React from 'react'
 import "./booksubmit.css"
 const Booksubmission = () => {
     return (
-        <div> 
+        <div className='book-main'> 
         
-        <h2 class="dhol"><b>Book Review Guidelines</b></h2>
+        <h2 class="dhol">Book Review Guidelines</h2>
         <ul class="chol">  
             <li>Limit review to 3,000 words maximum.</li>  
             <li>Font should be <b>Times New Roman</b> #12</li>  

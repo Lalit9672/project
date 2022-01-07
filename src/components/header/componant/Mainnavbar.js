@@ -20,7 +20,7 @@ const Mainnavbar = () => {
               <FaHome />
             </Link>
             <Link to="./About">AboutUS</Link>
-            <Link to="./Editor/Editor">Editor message</Link>
+            <Link to="./Editor/Editors">Editor message</Link>
             <Link to="./Contact/Contact">ContactUs </Link>
             {/* <i className="searcgh"><FaSearch/></i>  */}
           </div>

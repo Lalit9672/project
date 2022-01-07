@@ -6,9 +6,10 @@
         flex-direction: column;
 }
 
-h1 .Title{
+ .Title{
     font-size: 36px;
     word-wrap: break-word;
+    padding-left: 30px;
 }
 
 div .entry-content{
