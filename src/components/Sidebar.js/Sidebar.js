@@ -33,23 +33,17 @@ const Sidebar = () => {
         <div id="news">
           <h3>News</h3>
           <hr />
-
-          <div className="notice-section">
-            {news.map(({ title, description }) => (
+          <div className="animation-limit">
+            <div className="notice-section">
               <>
-                <marquee
-                  behavior="scroll"
-                  direction="up"
-                  onmouseout="this.start()"
-                  onmouseover="this.stop()"
-                  scrolldelay="1"
-                  scrollamount="1"
-                >
-                  <a href="https://www.aravalieducation.org">{title}</a>
-                  <p id="newsupdate">{description}</p>
-                </marquee>
+                {news.map(({ title, description }) => (
+                  <>
+                    <a href="https://www.aravalieducation.org">{title}</a>
+                    <p id="newsupdate">{description}</p>
+                  </>
+                ))}
               </>
-            ))}
+            </div>
           </div>
         </div>
       </div>
