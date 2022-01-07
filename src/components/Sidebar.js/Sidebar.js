@@ -15,6 +15,9 @@ const Sidebar = () => {
       });
       setNews(array);
     });
+    return () => {
+      unsubscribe();
+    };
   }, []);
 
   return (
@@ -23,7 +26,7 @@ const Sidebar = () => {
         <div className="searchdiv">
           <h3>SEARCH VOLUME/ISSUE/RESEARCH PAPER</h3>
           <hr />
-          <input type="text" ></input>
+          <input type="text"></input>
           <button>Search</button>
         </div>
 
@@ -32,21 +35,21 @@ const Sidebar = () => {
           <hr />
 
           <div className="notice-section">
-              {news.map(({ title, description }) => (
-                <>
+            {news.map(({ title, description }) => (
+              <>
                 <marquee
-                 behavior="scroll"
+                  behavior="scroll"
                   direction="up"
                   onmouseout="this.start()"
                   onmouseover="this.stop()"
                   scrolldelay="1"
                   scrollamount="1"
-                  >
+                >
                   <a href="https://www.aravalieducation.org">{title}</a>
                   <p id="newsupdate">{description}</p>
-                  </marquee>
-                </>
-              ))}
+                </marquee>
+              </>
+            ))}
           </div>
         </div>
       </div>

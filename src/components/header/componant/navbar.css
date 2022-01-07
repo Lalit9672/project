@@ -1,5 +1,6 @@
 .navbar {
-  height: 60px;
+  height: 50px;
+  min-height: 50px;
   background: #1b1919;
   display: flex;
   border-top: 3px solid #f27300;
@@ -23,7 +24,6 @@
 }
 .nav-item {
   min-width: fit-content;
-
 }
 .nav-items a {
   color: white;
@@ -33,15 +33,15 @@
   margin-top: 1rem;
   border-radius: 5px;
   width: 100%;
-  /* padding:  10px; */
-  padding: 0.5rem 1rem;
+  padding: 10px;
+  /* padding: 0.5rem 1.5rem; */
 }
-.nav-items a:hover {
+.nav-items a > .nav-items a:hover {
   background-color: white;
   color: black;
 }
 
-@media screen and (min-width: 975px) and (max-width:1250px) {
+@media screen and (min-width: 950px) and (max-width: 1250px) {
   .nav-items {
     display: flex;
     list-style: none;
@@ -49,7 +49,7 @@
     font-size: 15px;
     flex-wrap: wrap;
     margin-right: 140px;
-    padding: 0px  10px;
+    padding: 0px 10px;
 
     /* margin-top: 12px;
     margin-left: 10px;
@@ -74,21 +74,21 @@
 
 @media screen and (max-width: 974px) {
   .navbar {
-    height:auto;
+    height: auto;
     background: #1b1919;
     display: flex;
     border-top: 3px solid #f27300;
     width: 100%;
     justify-content: center;
     margin-left: 0;
-
   }
   .nav-items {
     display: none;
   }
   .nav-link-mobileView {
-   
+    padding: 20px 0px;
     margin-top: 60px;
+    overflow-x: hidden;
     width: 100%;
     background-color: black;
     color: white;
@@ -128,7 +128,7 @@
   .mobile-menu-icon {
     position: relative;
     float: right;
-   background: none;
+    background: none;
     color: red;
   }
   .after-icon {
