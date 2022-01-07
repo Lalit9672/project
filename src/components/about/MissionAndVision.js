@@ -2,7 +2,8 @@ import React from "react";
 import './MissionAndVision.css'
 const MissionAndVision = () => {
   return (
-    <div className="main-content-about">
+    <div className="mission">
+    <div className="main-content-aboutmisson">
     <h1 className="Title">MissionAndVision</h1>
     <div className="entry-content">
     <h3 className="sub-Mis-heading">Mission</h3>
@@ -14,7 +15,7 @@ const MissionAndVision = () => {
      <p className="content-page">The vision of JIR is to provide an academic medium and an important reference for the advancement and dissemination of research results that support high-level learning, teaching and research in the various fields. Original research work, theoretical work, 
          application-based studies, which contribute to a better understanding in various fields.</p>
     </div>
-
+    </div>
     </div>
     )
 };

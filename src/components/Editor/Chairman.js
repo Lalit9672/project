@@ -4,8 +4,7 @@ import "./chairman.css";
 const Chairman = () => {
     return (
         
-        <div className='chairman'>
-            
+    <div className='chairman'>        
     <div class="chairman-blog">
       <div class="chairman-blog-post">
         <div class="blog-post-img">

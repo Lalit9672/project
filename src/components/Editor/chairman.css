@@ -3,23 +3,22 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  background-color: white;
 }
 
 .chairman-blog{
-  margin-top: 20px;
+  margin-left: 1rem;
+  padding: 0.5rem 0.5rem;
 }
 
 .chairman-blog-post{
-  width: 100%;
-  padding:2rem;
-  background-color: #ffff;
-  align-items:center;
-  border: radius 0.8em;
+  /* display: flex;
+  justify-content: flex-start;
+  flex-direction: column; */
 }
 
 .blog-post-img{
-  min-width: 20rem;
-  max-width: 20rem;
+  width: 10rem;
   height: 12rem;
   position: relative;
 }

@@ -90,13 +90,9 @@
 
 .left-btn{
   align-content: flex-start;
-<<<<<<< HEAD
-  align-self: center;  
-=======
   align-self: center;
   margin-top:8rem ;
   margin-left: 1rem;
->>>>>>> 549b5f2ff8cea40a45af0eb7598d58f0ecd9764b
 }
 
 .right-btn{
@@ -114,14 +110,15 @@
 }
 
 .middle-div p {
-  font-size: 18px;
+  font-size: 17.5px;
   text-align: justify;
   color: #202020;
-  margin: 1rem;
+  margin: 0.2rem;
+  margin-left: 1rem;
 }
 
 .middle-div a {
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   color: #ff6900;
   font-size: 18px;
 }
@@ -155,6 +152,11 @@
   border-style: none;
 }
 
+.middle-div button:hover{
+  background-color: #ff4200;
+  color: antiquewhite;
+}
+
 .middle-div img {
   overflow: hidden;
 }
@@ -173,20 +175,20 @@
 
 @media only screen and (max-width: 900px) and (min-width: 500px) {
   .leftside {
-    padding: 1rem 0.5rem;
-    margin-left: 3rem;
+    padding: 0.5rem 0.5rem;
+    margin-left: 1rem;
   }
 
   .leftside h1 {
     font-size: 30px;
   }
 
-  .leftside strong {
+  .leftside p {
     font-size: 15px;
   }
 
   .slidebar {
-    height: 300px;
+    height: 270px;
   }
 
   .slides button {
@@ -223,26 +225,26 @@
 
   .bot {
     margin: 0.5rem 0.1rem;
-    padding-left: 2rem;
+    padding-left: 1.5rem;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .leftside {
     padding: 0.4rem 0.2rem;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
   }
 
   .leftside h1 {
     font-size: 25px;
   }
 
-  .leftside strong {
+  .leftside p {
     font-size: 13px;
   }
 
   .slidebar {
-    height: 200px;
+    height: 210px;
   }
 
   .slides button {
@@ -250,9 +252,7 @@
   }
 
   .left-btn{
-    align-content: flex-start;
-    align-self: center;
-    margin-top:5rem ;
+    margin-top:5.5rem ;
     margin-left: 0.5rem;
   }
   
@@ -285,7 +285,7 @@
   }
 
   .bot {
-    margin: 0.5rem 0.1rem;
-    padding-right: 1rem;
+    margin: 0.10rem 0.1rem;
+    padding-left: 0.50rem;
   }
 }

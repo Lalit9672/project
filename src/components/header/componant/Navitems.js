@@ -35,7 +35,7 @@ export const navItems = [
       {
         id: 6,
         title: "Call for paper",
-        path: "./components/Callforpaper/Cpaper",
+        path: "./Callforpaper/Cpaper",
         cName: "nav-item",
       },
       {
@@ -47,7 +47,7 @@ export const navItems = [
       {
         id:8 ,
         title: "Turn Around dates",
-        path: "./dates",
+        path: "./turnaround/TAD",
         cName: "nav-item",
       },
       {
@@ -112,7 +112,7 @@ export const editorDropdown = [
   {
     id: 1,
     title: "EditorBoard",
-    path: "./Editor/Editor",
+    path: "./Editor/Editors",
     cName: "submenu-item",
   },
   {
