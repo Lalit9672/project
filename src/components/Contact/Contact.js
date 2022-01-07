@@ -3,7 +3,9 @@ import "./Contact.css";
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from "google-maps-react";
 const Contact = ({ google, onMarkerClick }) => {
   return (
-    <div className="body">
+    <>
+    <div className="contact-main">
+    <div className="contact">
       <article className="col-md">
         <div className="contact-body-page">
           <div className="main-content-page">
@@ -121,6 +123,8 @@ const Contact = ({ google, onMarkerClick }) => {
         </div>
       </article>
     </div>
+    </div>
+    </>
   );
 };
 

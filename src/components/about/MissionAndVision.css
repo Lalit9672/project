@@ -1,8 +1,14 @@
+.mission{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
 h1 .Title,h3 .sub-Mis-heading{
     word-wrap: break-word;
     font-weight: 700;
-    color: #000;
-    letter-spacing: -.02em;
     
 }
  h1 .Title{
@@ -13,8 +19,6 @@ h3 .sub-Mis-heading{
     font-size: 36px;
     word-wrap: break-word;
     font-weight: 700;
-    color: #000;
-    letter-spacing: -.02em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
@@ -45,10 +49,7 @@ p .content-page{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
-div .main-content-about{
-    margin-left: 30px;
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
-        flex-direction: column;
+div .main-content-aboutmisson{
+        margin-left: 1rem;
+        padding: 0.5rem 0.5rem;
 }

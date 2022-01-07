@@ -23,7 +23,7 @@ const Sidebar = () => {
         <div className="searchdiv">
           <h3>SEARCH VOLUME/ISSUE/RESEARCH PAPER</h3>
           <hr />
-          <input type="text" />
+          <input type="text" ></input>
           <button>Search</button>
         </div>
 

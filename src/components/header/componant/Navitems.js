@@ -35,7 +35,7 @@ export const navItems = [
       {
         id: 6,
         title: "Call for paper",
-        path: "./components/Callforpaper/Cpaper",
+        path: "./Callforpaper/Cpaper",
         cName: "nav-item",
       },
       {
