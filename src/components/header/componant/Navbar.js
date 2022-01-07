@@ -15,6 +15,7 @@ const Navbar = () => {
   const [volume, setVolume] = useState(false);
   const [editor, setEditor] = useState(false);
   const [isMobileView, setIsMobileView] = useState(false);
+
   window.addEventListener("resize", () => {
     setWidth(window.innerWidth);
   });
@@ -37,7 +38,10 @@ const Navbar = () => {
                   onMouseEnter={() => setDrrodown(true)}
                   onMouseLeave={() => setDrrodown(false)}
                 >
-                  <Link to={item.path}>
+                  <Link
+                    to={item.path}
+                    style={{ paddingLeft: 20, paddingRight: 20 }}
+                  >
                     {item.title}
                     {!isMobileView && (
                       <i className="icon">
@@ -73,7 +77,10 @@ const Navbar = () => {
                   onMouseEnter={() => setVolume(true)}
                   onMouseLeave={() => setVolume(false)}
                 >
-                  <Link to={item.path}>
+                  <Link
+                    to={item.path}
+                    style={{ paddingRight: 20, paddingLeft: 20 }}
+                  >
                     {item.title}
                     {!isMobileView && (
                       <i className="icon">
@@ -93,7 +100,10 @@ const Navbar = () => {
                   onMouseEnter={() => setGuidline(true)}
                   onMouseLeave={() => setGuidline(false)}
                 >
-                  <Link to={item.path}>
+                  <Link
+                    to={item.path}
+                    style={{ paddingRight: 20, paddingLeft: 20 }}
+                  >
                     {item.title}
                     {!isMobileView && (
                       <i className="icon">
@@ -112,7 +122,10 @@ const Navbar = () => {
                   onMouseEnter={() => setEditor(true)}
                   onMouseLeave={() => setEditor(false)}
                 >
-                  <Link to={item.path}>
+                  <Link
+                    to={item.path}
+                    style={{ paddingRight: 20, paddingLeft: 20 }}
+                  >
                     {item.title}
                     {!isMobileView && (
                       <i className="icon">
