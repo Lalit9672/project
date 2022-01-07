@@ -38,11 +38,11 @@ const Contact = ({ google, onMarkerClick }) => {
                       <td>
                         <strong>
                           <span className="name-head">
-                            Contact Number of Mewar University
+                            Contact Number of Aravali college
                           </span>
                         </strong>
                         <br />
-                        Phone: 01471-285451/52
+                        Phone: 9513105532
                         <br />
                         Fax: 01471-285451/52
                         <br />
@@ -55,15 +55,15 @@ const Contact = ({ google, onMarkerClick }) => {
                       <td>
                         <strong>
                           <span className="name-head">
-                            Mr. Shashank Kumar Dwivedi
+                            Mr. Hemant Dhabhai
                           </span>
                         </strong>
                         <br />
-                        Director (Publication)
+                        Director 
                         <br />
                         Journal of Indian Research (JIR)
                         <br />
-                        Mewar University, NH-79, Gangrar, Chittorgarh
+                        Aravali Institue of technical studies
                         <br />
                         Rajasthan, INDIA
                         <br />

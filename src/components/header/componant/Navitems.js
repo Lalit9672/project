@@ -47,7 +47,7 @@ export const navItems = [
       {
         id:8 ,
         title: "Turn Around dates",
-        path: "./dates",
+        path: "./turnaround/TAD",
         cName: "nav-item",
       },
       {

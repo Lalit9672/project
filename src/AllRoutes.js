@@ -26,7 +26,7 @@ import AddNews from "./components/admin/AddNews";
 
 const AllRoutes = () => {
   return (
-    <div className="repo" >
+    <div className="repo">
       <Router>
         <Header />
         <div className="respo">
@@ -75,17 +75,11 @@ const AllRoutes = () => {
 
             <Route path="/Callforpaper" element={<Home />} />
 
-            <Route 
-            path="/Callforpaper/Cpaper" 
-            element={<Cpaper />} 
-            />
+            <Route path="/Callforpaper/Cpaper" element={<Cpaper />} />
 
             <Route path="/TurnAroundDates" element={<Home />} />
 
-            <Route 
-            path="/TurnAroundDates/TAD"
-            element={<TAD />}
-            />
+            <Route path="/TurnAroundDates/TAD" element={<TAD />} />
 
             <Route path="/about/Objectives" element={<Objectives />} />
             <Route path="/firebase" element={<Home />} />
@@ -97,6 +91,7 @@ const AllRoutes = () => {
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
             <Route path="/admin/create/new" element={<AddNews />} />
+            <Route path="/turnaround/TAD" element={<TAD/>}/>
           </Routes>
           <Sidebar />
         </div>

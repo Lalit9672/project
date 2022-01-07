@@ -27,17 +27,13 @@
 .search {
   display: none;
 }
-.nav-link-serach 
-{
-    display: flex;
-    position: absolute;
-    right: 0;
-    float: right;
-  
-    
+.nav-link-serach {
+  display: flex;
+  position: absolute;
+  right: 0;
+  float: right;
 }
-.nav-link-serach form
-{
+.nav-link-serach form {
   position: absolute;
   right: 0;
 }
@@ -57,11 +53,12 @@
     color: white;
 }
  */
-.main-compo a:hover{
-    border-top: 3px solid #f27300;
+.main-compo a:hover {
+  border-top: 3px solid #f27300;
 }
 .seacrh-icon {
   margin-top: 25px;
+  padding-right: 20px;
 }
 .seacrh-icon:hover {
   border-top: 3px solid #f27300;
