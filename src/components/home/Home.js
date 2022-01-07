@@ -28,7 +28,7 @@ const Home = () => {
 
           <div className="middle-div">
             <p>
-              The main purpose of the JOURNAL OF INDIAN RESEARCH (JIR) is to
+              The main purpose of the <b>JOURNAL OF INDIAN RESEARCH (JIR)</b> is to
               bring into focus the latest developments in the field of research
               by academicians and students. JIR publishes research papers on the
               topics related to science, engineering, information technology,

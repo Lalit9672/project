@@ -2,6 +2,7 @@ import React from "react";
 import './Introduction.css'
 const Introduction = () => {
   return (
+    <div className="main-intro">
     <div className="main-content-about">
       <h1 className="Title">Introduction</h1>
 
@@ -18,7 +19,7 @@ const Introduction = () => {
        arts, social science, law, management, commerce, etc. We welcome papers on topics related to core areas of research as well as on interdisciplinary topics.
       </p>
     </div>
-
+    </div>
     </div>
     
       )

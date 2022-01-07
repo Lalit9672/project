@@ -2,6 +2,7 @@ import React from "react";
 import './Objectives.css'
 const Objectives = () => {
   return (
+    <div className="objective">
   <div className="main-content-about">
   <h1 className="Title">Objectives</h1>
   <div className="entry-content">
@@ -21,6 +22,7 @@ const Objectives = () => {
      The journal's scope is to facilitate the researchers, scholars, resource persons and practitioners to come on a platform and to share 
      their findings of the research with the rest of the world so that informed decisions can be taken to improve businesses and societies as a whole.
   </p>
+  </div>
   </div>
   </div>
   )
