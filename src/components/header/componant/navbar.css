@@ -88,6 +88,7 @@
   .nav-link-mobileView {
     padding: 20px 0px;
     margin-top: 60px;
+    overflow-x: hidden;
     width: 100%;
     background-color: black;
     color: white;
