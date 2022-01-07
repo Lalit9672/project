@@ -87,6 +87,7 @@ const AllRoutes = () => {
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
             <Route path="/admin/create/new" element={<AddNews />} />
+            <Route path="/turnaround/TAD" element={<TAD/>}/>
           </Routes>
           <Sidebar />
         </div>
