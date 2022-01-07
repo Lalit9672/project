@@ -112,7 +112,7 @@ export const editorDropdown = [
   {
     id: 1,
     title: "EditorBoard",
-    path: "./Editor/Editor",
+    path: "./Editor/Editors",
     cName: "submenu-item",
   },
   {
