@@ -72,13 +72,9 @@ tr {
   padding: 6px;
 }
 
-.has-row {
-  /* font-weight: bold; */
-}
-
-.has-row {
-  display: table-cell;
-  vertical-align: inherit;
+.has-row{
+    display: table-cell;
+    vertical-align: inherit;
 }
 
 .has-row-2 {
@@ -89,13 +85,9 @@ tr {
   padding: 6px;
 }
 
-.has-row-2 {
-  /* font-weight: bold; */
-}
-
-.has-row-2 {
-  display: table-cell;
-  vertical-align: inherit;
+.has-row-2{
+    display: table-cell;
+    vertical-align: inherit;
 }
 
 @media (min-width: 782px) {

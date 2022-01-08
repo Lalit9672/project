@@ -2,35 +2,30 @@ import React from "react";
 import "./chairman.css";
 
 const Chairman = () => {
-  return (
-    <div className="chairman">
+    return (
+      <div className='chairman'>
       <div class="chairman-blog">
         <div class="chairman-blog-post">
-          <div class="blog-post-img">
+          <h1>Chairman Person's Message</h1>
+          <div className="chairman-flex-set">
+          <div class="chairman-blog-post-img">
             <img src="/img/b.jpg" alt="" />
           </div>
-          <div class="blog-post-info1">
-            <div class="blog-post-title1">
-              <h1>Dr Ashok Kumar Gadiya</h1>
-              <span>
-                <br />
-                C.A, Ph.D.
-                <br />
-                <br />
-                Chairperson, Mewar University
-                <br />
-                <br />
-                Phone: 9891****93
-                <br />
-                <br />
-                Email:akg@mewruniversity.com
-                <br />
-                <br />
-                Profile
-                <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
-              </span>
-            </div>
-          </div>
+            <div class="chairman-blog-post-title">
+                  <h1>Dr Ashok Kumar Gadiya</h1>
+                <span>
+                  C.A, Ph.D.<br />
+                  Chairperson, Mewar University<br />
+                  Phone: 9891****93<br />
+                  Email:akg@mewruniversity.com<br />
+                  Profile :
+                  <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+                </span>
+                </div>
+                </div>
+                </div>
+
+
           <div class="chairman-message">
             <p>
               Welcome to the online edition of Indian Journal Research (IJR).
@@ -55,13 +50,12 @@ const Chairman = () => {
               the researchers do not want to miss. I thanks to our mentor Dr
               Ashok Kumar Gadiya, Chairman, Mewar group of institution, my
               associates and juniors. I am also thankful to our reviewers and
-              editors for their valuable suggestion.
+              chairman for their valuable suggestion.
             </p>
           </div>
-        </div>
-      </div>
-    </div>
+          </div>
+          </div>
   );
-};
-
-export default Chairman;
+};    
+    
+export default Chairman

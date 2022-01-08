@@ -3,36 +3,31 @@ import "./vicecanceler.css";
 
 const Vicecanceler = () => {
   return (
-    <div>
-      <div class="blog2">
-      <h1 class="title1">Chairman Ethical Committee Message</h1>
-        <div class="blog-post2">
-          <div class="blog-post-img2">
+
+    <div className='vicechancler'>
+      <div class="vicechancler-blog">
+        <div class="vicechancler-blog-post">
+          <h1>Chairman Ethical Committee Message</h1>
+          <div className="vicechancler-flex-set">
+          <div class="vicechancler-blog-post-img">
             <img src="/img/e.jpg" alt="" />
           </div>
-          <div class="blog-post-info2">
-            <div class="blog-post-title2">
-              <h1 class="blog-post-title2">Dr Ashok Kumar Gadiya</h1>
-              <span>
-                <br />
-                C.A, Ph.D.
-                <br />
-                <br />
-                Chairperson, Mewar University
-                <br />
-                <br />
-                Phone: 9891****93
-                <br />
-                <br />
-                Email:akg@mewruniversity.com
-                <br />
-                <br />
-                Profile
-                <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
-              </span>
-            </div>
-          </div>
-          <div class="message2">
+            <div class="vicechancler-blog-post-title">
+                  <h1>Prof (Dr) Sarvottam Dixit</h1>
+                <span>
+                  C.A, Ph.D.<br />
+                  Chairperson, Mewar University<br />
+                  Phone: 9891****93<br />
+                  Email:akg@mewruniversity.com<br />
+                  Profile :
+                  <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+                </span>
+                </div>
+                </div>
+                </div>
+
+
+          <div class="vicechancler-message">
             <p>
               Welcome to the online edition of Indian Journal Research (IJR).
               This year marks a milestone in the history of the journal because
@@ -56,12 +51,11 @@ const Vicecanceler = () => {
               the researchers do not want to miss. I thanks to our mentor Dr
               Ashok Kumar Gadiya, Chairman, Mewar group of institution, my
               associates and juniors. I am also thankful to our reviewers and
-              editors for their valuable suggestion.
+              vicechancler for their valuable suggestion.
             </p>
           </div>
-        </div>
-      </div>
-    </div>
+          </div>
+          </div>
   );
 };
 

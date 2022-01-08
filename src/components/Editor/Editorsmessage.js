@@ -3,36 +3,30 @@ import './editormessage.css'
 
 const Editorsmessage = () => {
     return (
-        <div className='editormsg'>
-            
-      <div class="editormsg-blog">
-        <div class="edi-blog-post">
-          <div class="blog-post-img">
+      <div className='editors'>
+      <div class="editors-blog">
+        <div class="editors-blog-post">
+          <h1>Editor's Message</h1>
+          <div className="editors-flex-set">
+          <div class="editors-blog-post-img">
             <img src="/img/a.jpg" alt="" />
           </div>
-          <div class="blog-post-info3">
-            <div class="blog-post-title3">
-              <h1 class="blog-post-title3">Dr Ashok Kumar Gadiya</h1>
-              <span>
-                <br />
-                C.A, Ph.D.
-                <br />
-                <br />
-                Chairperson, Mewar University
-                <br />
-                <br />
-                Phone: 9891****93
-                <br />
-                <br />
-                Email:akg@mewruniversity.com
-                <br />
-                <br />
-                Profile
-                <a href="https://www.mimcs.com/chairman%27s_profile.php"></a>
-              </span>
-            </div>
-          </div>
-          <div class="edot-message">
+            <div class="editors-blog-post-title">
+                  <h1>Dr Ahsan Z. Rizvi</h1>
+                <span>
+                  C.A, Ph.D.<br />
+                  Chairperson, Mewar University<br />
+                  Phone: 9891****93<br />
+                  Email:akg@mewruniversity.com<br />
+                  Profile :
+                  <a href="https://www.mimcs.com/chairman%27s_profile.php">https://www.mimcs.com/chairman%27s_profile.php</a>
+                </span>
+                </div>
+                </div>
+                </div>
+
+
+          <div class="editors-message">
             <p>
               Welcome to the online edition of Indian Journal Research (IJR).
               This year marks a milestone in the history of the journal because
@@ -59,10 +53,9 @@ const Editorsmessage = () => {
               editors for their valuable suggestion.
             </p>
           </div>
-        </div>
-      </div>
-        </div>
-    )
-}
+          </div>
+          </div>
+  );
+};
 
 export default Editorsmessage
