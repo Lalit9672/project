@@ -52,8 +52,11 @@
 .notice-section {
   height: 90%;
 
-  animation: upward ease-in 20s infinite;
+  animation: upward linear 30s infinite;
   overflow: hidden;
+}
+.notice-section:hover {
+  animation-play-state: paused;
 }
 @keyframes upward {
   0% {
@@ -78,13 +81,13 @@
     transform: translateY(-30%);
   }
   70% {
-    transform: translateY(-60%);
+    transform: translateY(-50%);
   }
   80% {
-    transform: translateY(-90%);
+    transform: translateY(-70%);
   }
   90% {
-    transform: translateY(-100%);
+    transform: translateY(-90%);
   }
   100% {
     transform: translateY(-100%);
