@@ -3,7 +3,6 @@ import "./mainnavbar.css";
 import { Link } from "react-router-dom";
 import { FaHome, FaSearch, FaAlignJustify, FaTimes } from "react-icons/fa";
 import { useState } from "react";
-
 const Mainnavbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isSearch, setSearch] = useState(false);
@@ -16,12 +15,12 @@ const Mainnavbar = () => {
             className={isMobile ? "nav-link-mobile" : "main-compo"}
             onClick={() => setIsMobile(false)}
           >
-            <Link to="./">
+            <Link classname="home-icon" to ="./">
               <FaHome />
             </Link>
-            <Link to="./About">AboutUS</Link>
-            <Link to="./Editor/Editors">Editor message</Link>
-            <Link to="./Contact/Contact">ContactUs </Link>
+            <Link id="about" className="header-about" to="./About">AboutUS</Link>
+            <Link className="header-editor" to="./Editor/Editors">Editor message</Link>
+            <Link className="header-contact" to="./Contact/Contact">ContactUs </Link>
             {/* <i className="searcgh"><FaSearch/></i>  */}
           </div>
 

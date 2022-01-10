@@ -15,6 +15,8 @@
      */
 }
 .main-compo a {
+  
+  font-family: "Calibri Light";
   color: black;
   text-decoration: none;
   margin: 13px;
@@ -53,14 +55,49 @@
     color: white;
 }
  */
-.main-compo a:hover {
-  border-top: 3px solid #f27300;
+
+
+ .header-editor , .header-contact , .header-about, .home-icon {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  font-family: "Lato";
+  color: #ecf0f1;
+  padding: 0px 0;
+  transition: 0.99s;
 }
+.main-compo  a::after {
+  position: absolute;
+  content: "";
+  width:120%;
+  height: 2px;
+  top: -21px;
+  left: -11px;
+  background: #ff7000;
+  transition: transform 0.99s;
+  transform: scaleX(0);
+  transform-origin: center;
+}
+
+.main-compo a:hover {
+  border-top: 3px  #f27300;
+}
+
+.main-compo a:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+
+
+
+
 .seacrh-icon {
   margin-top: 25px;
   padding-right: 20px;
 }
 .seacrh-icon:hover {
+  
   border-top: 3px solid #f27300;
 }
 .mobile-menu-icon {
