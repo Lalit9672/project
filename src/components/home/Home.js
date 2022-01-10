@@ -3,7 +3,11 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import "./home.css";
 
 const Home = () => {
-  return (
+  let changeImg =()=>{
+    let pk = document.getElementsByClassName("slidebar").style.backgroundImage = "url(./img1.jpg)";
+  }
+
+return (
       <div className="home-blog">
         <div className="leftside">
           <h1>Welcome to Journal of Indian Research</h1>
@@ -18,8 +22,8 @@ const Home = () => {
           <div className="slidemain">
           <div className="slidebar">
             <div className="slides">
-              <button className="left-btn"><BsChevronLeft/></button>
-              <button className="right-btn"><BsChevronRight/></button>
+              <button className="left-btn" onClick={changeImg()} value='change'><BsChevronLeft/></button>
+              <button className="right-btn" onClick={changeImg()} value='change'><BsChevronRight/></button>
             </div>
           </div>
           </div>

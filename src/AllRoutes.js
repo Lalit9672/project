@@ -22,8 +22,8 @@ import Aim from "./components/Aim/Aim";
 import Booksubmission from "./components/submissions/Booksubmission";
 import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
-import Chairman from "./components/Editor/Chairman";
-import Vicecanceler from "./components/Editor/Vicecanceler";
+// import Chairman from "./components/Editor/Chairman";
+// import Vicecanceler from "./components/Editor/Vicecanceler";
 
 const AllRoutes = () => {
   const [showSideBar, setShowSideBar] = useState(true);
