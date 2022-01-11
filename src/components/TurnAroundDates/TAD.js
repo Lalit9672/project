@@ -8,6 +8,7 @@ const TAD = ({ setShowSideBar }) => {
       setShowSideBar(true);
     };
   }, []);
+  
   return (
     <div className="body-block">
       <div className="main-block">
