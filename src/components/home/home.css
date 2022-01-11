@@ -47,7 +47,7 @@
   flex-direction: column;
 }
 
-.slidebar {
+/* .slidebar {
   margin: 1rem 0rem;
   background-image: url("./img1.jpg");
   width: 94%;
@@ -71,7 +71,7 @@
   75% {
     background-image: url("./img\ \(4\).jpg");
   }
-}
+} */
 
 .slides{
   display: flex;

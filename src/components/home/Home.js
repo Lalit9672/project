@@ -1,10 +1,28 @@
 import React from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import "./home.css";
+import img from './img1.jpg';
+import img1 from './img.jpg';
+import img2 from './img (1).jpg'
+import img3 from './img (2).jpg'
 
 const Home = () => {
+
+    var style={
+        margin: '1rem 0rem',
+        backgroundImage: `url(${img})`,
+        width: '94%',
+        height: '310px',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'repeat-x',
+        animation: 'slider 10s infinite step-start',
+        boxShadow: '1px 1px 10px 0.5px #505757'
+      }
+
   let changeImg =()=>{
-    let pk = document.getElementsByClassName("slidebar").style.backgroundImage = "url(./img1.jpg)";
+  let bg =  document.getElementById("slidebar")
+  bg.style.backgroundImage = "url(./img.jpg)"
+  console.log(bg);
   }
 
 return (
@@ -20,10 +38,24 @@ return (
 
           {/* Slidebar Start */}
           <div className="slidemain">
-          <div className="slidebar">
+          <div className="slidebar" id="slidebar" style={style}>
+          <style>{`@keyframes slider {
+  0% {
+    background-image: url(${img1});
+  }
+  25% {
+    background-image: url(${img2});
+  }
+  50% {
+    background-image: url(${img3});
+  }
+  75% {
+    background-image: url(${img2});
+  }
+} `}</style>
             <div className="slides">
-              <button className="left-btn" onClick={changeImg()} value='change'><BsChevronLeft/></button>
-              <button className="right-btn" onClick={changeImg()} value='change'><BsChevronRight/></button>
+              <button className="left-btn" onClick={changeImg} value='change'><BsChevronLeft/></button>
+              <button className="right-btn" onClick={changeImg} value='change'><BsChevronRight/></button>
             </div>
           </div>
           </div>
