@@ -22,6 +22,7 @@ import Aim from "./components/Aim/Aim";
 import Booksubmission from "./components/submissions/Booksubmission";
 import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
+import UploadVolume from "./components/admin/UploadVolume";
 // import Chairman from "./components/Editor/Chairman";
 // import Vicecanceler from "./components/Editor/Vicecanceler";
 
@@ -89,11 +90,13 @@ const AllRoutes = () => {
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
             <Route path="/admin/create/new" element={<AddNews />} />
+            <Route />
             <Route
               setShowSideBar={setShowSideBar}
               path="/turnaround/TAD"
               element={<TAD setShowSideBar={setShowSideBar} />}
             />
+            <Route path="/add/volume" element={<UploadVolume />} />
           </Routes>
           {showSideBar && <Sidebar />}
         </div>
