@@ -3,6 +3,7 @@ import "./respo.css";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
+import Research from './components/Research/Research'
 import Footer from "./components/footer/Footer";
 import Introduction from "./components/about/Introduction";
 import Objectives from "./components/about/Objectives";
@@ -83,6 +84,8 @@ const AllRoutes = () => {
             <Route path="/firebase" element={<Home />} />
 
             <Route path="/Aim/Aim" element={<Aim />} />
+
+            <Route path="/Research/Research" element={<Research />}></Route>
             <Route
               path="/submission/Booksubmission"
               element={<Booksubmission />}
