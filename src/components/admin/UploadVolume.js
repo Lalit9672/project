@@ -53,7 +53,7 @@ const UploadVolume = () => {
         onChange={onHandleChange}
         placeholder="Select Input File"
       />
-      <button onClick={(e) => addFile(e)}>Submit</button>
+      <button className="volume-btn" onClick={(e) => addFile(e)}>Submit</button>
     </div>
   );
 };
