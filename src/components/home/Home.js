@@ -3,24 +3,32 @@ import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import "./home.css";
 
 const Home = () => {
-  return (
+
+  let changeImg =()=>{
+  let bg =  document.getElementById("slidebar")
+  bg.style.backgroundImage = "url(./img.jpg)"
+  }
+
+return (
       <div className="home-blog">
         <div className="leftside">
-          <h1>Welcome to Journal of Indian Research</h1>
+          <h1>Welcome to Aravali Journal of Technical Research</h1>
           <p>
-            The Journal of Indian Research (JIR) (ISSN: (Online) 2321 -4155) is
+            The Aravali Journal of Technical Research (AJTR) (ISSN: (Online) xxxx -xxxx) is
             a quarterly peer-reviewed, online, open-access (OA), journal
             supported by an editorial board comprising of subject matter experts
-            drawn from all disciplines.
+            drawn from all disciplines of Engineering and Technology.
           </p>
 
+          
           {/* Slidebar Start */}
           <div className="slidemain">
-          <div className="slidebar">
-            <div className="slides">
-              <button className="left-btn"><BsChevronLeft/></button>
-              <button className="right-btn"><BsChevronRight/></button>
-            </div>
+          <div className="slidebar" id="slidebar">
+         
+          <div className="slides">
+              <button className="left-btn" onClick={changeImg} value='change'><BsChevronLeft/></button>
+              <button className="right-btn" onClick={changeImg} value='change'><BsChevronRight/></button>
+          </div>
           </div>
           </div>
 
@@ -28,22 +36,20 @@ const Home = () => {
 
           <div className="middle-div">
             <p>
-              The main purpose of the <b>JOURNAL OF INDIAN RESEARCH (JIR)</b> is to
+              The main purpose of the <b>Aravali Journal of Technical Research (AJTR)</b> is to
               bring into focus the latest developments in the field of research
-              by academicians and students. JIR publishes research papers on the
+              by academicians and students. AJTR publishes research papers on the
               topics related to science, engineering, information technology,
-              arts, social science, law, management, commerce, etc. We welcome
-              papers on topics related to core areas of research as well as on
-              interdisciplinary topics. Please send your articles to . 
+              etc. We welcome papers on topics related to core areas of research as well as on
+              interdisciplinary topics. Please send your articles to : 
             </p>
 
-            <a href="https://www.aravalieducation.org/">
-              https://www.aravalieducation.org
+            <a href="ajtr@aravalicollege.org">
+            ajtr@aravalicollege.org
             </a>
 
             <p>
-              <b>Publisher :</b> Mewar University, Gangrar, Chittorgarh, Rajasthan <br />
-              <b>Printers :</b> M.K. Printers, 5459, New Chandrawal, Kamla Nagar, Delhi-110007 <br />
+              <b>Publisher :</b> Aravali Institute of Technical Studies, Udaipur, Rajasthan <br />
               <b>Copyright © Authors. All rights reserved.</b> Authors are
               responsible for obtaining permission to reproduce copyright
               material from other sources. The Publisher assumes no
@@ -52,16 +58,16 @@ const Home = () => {
               do not necessarily represent the viewpoint of the Journal.
             </p>
             <hr />
-
+{/* 
             <img
               src="https://jir.mewaruniversity.org/wp-content/uploads/2021/02/magazinefront-768x259.png"
               alt="Image-2"
-            />
+            /> */}
             <div className="mainbtn">
-              <a href="https://www.aravalieducation.org/">
+              {/* <a href="https://www.aravalieducation.org/">
                 <button className="btn">Get All Issue for JIR</button>
-              </a>
-              <hr />
+              </a> */}
+              
               <img
                 src="https://jir.mewaruniversity.org/wp-content/uploads/2021/09/Jir-Vol-9-Issue-12.jpg"
                 alt="pk"

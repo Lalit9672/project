@@ -4,7 +4,7 @@ const MissionAndVision = () => {
   return (
     <div className="mission">
     <div className="main-content-aboutmisson">
-    <h1 className="Title">MissionAndVision</h1>
+    <h1 className="Title">Mission and Vision</h1>
     <div className="entry-content">
     <h3 className="sub-Mis-heading">Mission</h3>
      <p className="content-page">
