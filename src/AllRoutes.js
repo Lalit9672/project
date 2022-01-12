@@ -14,7 +14,6 @@ import Chairman from "./components/Editor/Chairman";
 import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
-import Newsfirebase from "./components/firebase/Newsfirebase";
 import Cpaper from "./components/Callforpaper/Cpaper";
 import TAD from "./components/TurnAroundDates/TAD";
 import About from "./components/about/About";
@@ -22,8 +21,7 @@ import Aim from "./components/Aim/Aim";
 import Booksubmission from "./components/submissions/Booksubmission";
 import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
-// import Chairman from "./components/Editor/Chairman";
-// import Vicecanceler from "./components/Editor/Vicecanceler";
+import UploadVolume from "./components/admin/UploadVolume";
 
 const AllRoutes = () => {
   const [showSideBar, setShowSideBar] = useState(true);
@@ -32,7 +30,6 @@ const AllRoutes = () => {
       <Router>
         <Header />
         <div className="respo">
-          {/* style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }} */}
 
           <Routes>
             <Route path="/" element={<Home />} />
@@ -89,11 +86,13 @@ const AllRoutes = () => {
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
             <Route path="/admin/create/new" element={<AddNews />} />
+            <Route />
             <Route
               setShowSideBar={setShowSideBar}
               path="/turnaround/TAD"
               element={<TAD setShowSideBar={setShowSideBar} />}
             />
+            <Route path="/add/volume" element={<UploadVolume />} />
           </Routes>
           {showSideBar && <Sidebar />}
         </div>
