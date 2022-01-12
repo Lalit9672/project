@@ -1,16 +1,7 @@
 import React from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-// import SimpleImageSlider from "react-simple-image-slider";
 import "./home.css";
-// const images = [
-//   { url: "img/1.jpg" },
-//   { url: "images/2.jpg" },
-//   { url: "images/3.jpg" },
-//   { url: "images/4.jpg" },
-//   { url: "images/5.jpg" },
-//   { url: "images/6.jpg" },
-//   { url: "images/7.jpg" },
-// ];
+
 const Home = () => {
 
   let changeImg =()=>{
@@ -35,13 +26,6 @@ return (
           <div className="slidebar" id="slidebar">
          
           <div className="slides">
-          {/* <SimpleImageSlider
-        width={830}
-        height={450}
-        images={images}
-        showBullets={false}
-        showNavs={true}
-      /> */}
               <button className="left-btn" onClick={changeImg} value='change'><BsChevronLeft/></button>
               <button className="right-btn" onClick={changeImg} value='change'><BsChevronRight/></button>
           </div>
