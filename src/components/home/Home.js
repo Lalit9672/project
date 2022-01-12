@@ -1,6 +1,6 @@
 import React from "react";
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
-import SimpleImageSlider from "react-simple-image-slider";
+// import SimpleImageSlider from "react-simple-image-slider";
 import "./home.css";
 // const images = [
 //   { url: "img/1.jpg" },
