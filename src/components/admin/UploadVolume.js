@@ -1,8 +1,19 @@
 import React, { useState } from "react";
-import { getStorage, ref, uploadBytes } from "firebase/storage";
+import { v4 as uuidv4 } from "uuid";
+import {
+  arrayUnion,
+  collection,
+  doc,
+  getDoc,
+  query,
+  setDoc,
+  updateDoc,
+} from "firebase/firestore";
+import { getDownloadURL, getStorage, ref, uploadBytes } from "firebase/storage";
+import { db } from "../../firebase";
 const UploadVolume = () => {
-  const storage = getStorage();
-  const storageRef = ref(storage, "volumes", "volume1");
+  // const time = Date().now().millisecondsSinceEpoch.toString();
+  // console.log("time", time);
   const [file, setFile] = useState(false);
   const onHandleChange = (e) => {
     console.log("calling");
@@ -10,8 +21,28 @@ const UploadVolume = () => {
   };
   const addFile = async (e) => {
     e.preventDefault();
+
+    const storage = getStorage();
+    const folderName = `volume (${new Date().getFullYear()})`;
+    const storageRef = ref(storage, `${folderName}/${uuidv4()}`);
     uploadBytes(storageRef, file).then((snapshot) => {
-      console.log("Uploaded a blob or file!");
+      getDownloadURL(storageRef).then(async (url) => {
+        const docRef = doc(db, "folders", folderName);
+        const docSnap = await getDoc(docRef);
+        if (docSnap.exists()) {
+          await updateDoc(docRef, {
+            urls: arrayUnion(url),
+          })
+            .then((data) => console.log("data updated"))
+            .catch((err) => console.log("err", err));
+        } else {
+          await setDoc(doc(db, "folders", folderName), {
+            urls: arrayUnion(url),
+          })
+            .then((data) => console.log("data saved"))
+            .catch((err) => console.log("err", err));
+        }
+      });
     });
   };
   return (

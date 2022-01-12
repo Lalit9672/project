@@ -23,6 +23,7 @@ import Booksubmission from "./components/submissions/Booksubmission";
 import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
 import UploadVolume from "./components/admin/UploadVolume";
+import Volumes from "./components/pdffile/Volumes";
 // import Chairman from "./components/Editor/Chairman";
 // import Vicecanceler from "./components/Editor/Vicecanceler";
 
@@ -89,14 +90,17 @@ const AllRoutes = () => {
               element={<Booksubmission />}
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
-            <Route path="/admin/create/new" element={<AddNews />} />
+
             <Route />
             <Route
               setShowSideBar={setShowSideBar}
               path="/turnaround/TAD"
               element={<TAD setShowSideBar={setShowSideBar} />}
             />
+            {/* Admin */}
             <Route path="/add/volume" element={<UploadVolume />} />
+            <Route path="/view/file/:docid/:index" element={<Volumes />} />
+            <Route path="/admin/create/new" element={<AddNews />} />
           </Routes>
           {showSideBar && <Sidebar />}
         </div>

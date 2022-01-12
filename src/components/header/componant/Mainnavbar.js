@@ -3,6 +3,7 @@ import "./mainnavbar.css";
 import { Link, useLocation } from "react-router-dom";
 import { FaHome, FaSearch, FaAlignJustify, FaTimes } from "react-icons/fa";
 import { useState } from "react";
+
 const Mainnavbar = (props) => {
   const [isMobile, setIsMobile] = useState(false);
   const [isSearch, setSearch] = useState(false);
