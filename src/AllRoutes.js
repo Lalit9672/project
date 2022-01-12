@@ -3,6 +3,7 @@ import "./respo.css";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
+import Research from './components/Research/Research'
 import Footer from "./components/footer/Footer";
 import Introduction from "./components/about/Introduction";
 import Objectives from "./components/about/Objectives";
@@ -94,6 +95,7 @@ const AllRoutes = () => {
               path="/turnaround/TAD"
               element={<TAD setShowSideBar={setShowSideBar} />}
             />
+            <Route path="/research" element={<Research/>}/>
           </Routes>
           {showSideBar && <Sidebar />}
         </div>
