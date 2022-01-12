@@ -8,21 +8,20 @@ import img3 from './img (2).jpg'
 
 const Home = () => {
 
-    var style={
-        margin: '1rem 0rem',
-        backgroundImage: `url(${img})`,
-        width: '94%',
-        height: '310px',
-        backgroundPosition: 'center',
-        backgroundRepeat: 'repeat-x',
-        animation: 'slider 10s infinite step-start',
-        boxShadow: '1px 1px 10px 0.5px #505757'
-      }
+    // var style={
+    //     margin: '1rem 0rem',
+    //     backgroundImage: `url(${img})`,
+    //     width: '94%',
+    //     height: '310px',
+    //     backgroundPosition: 'center',
+    //     backgroundRepeat: 'repeat-x',
+    //     animation: 'slider 10s infinite step-start',
+    //     boxShadow: '1px 1px 10px 0.5px #505757'
+    //   }
 
   let changeImg =()=>{
   let bg =  document.getElementById("slidebar")
   bg.style.backgroundImage = "url(./img.jpg)"
-  console.log(bg);
   }
 
 return (
@@ -38,8 +37,8 @@ return (
 
           {/* Slidebar Start */}
           <div className="slidemain">
-          <div className="slidebar" id="slidebar" style={style}>
-          <style>{`@keyframes slider {
+          <div className="slidebar" id="slidebar">
+          {/* <style>{`@keyframes slider {
   0% {
     background-image: url(${img1});
   }
@@ -52,7 +51,7 @@ return (
   75% {
     background-image: url(${img2});
   }
-} `}</style>
+} `}</style> */}
             <div className="slides">
               <button className="left-btn" onClick={changeImg} value='change'><BsChevronLeft/></button>
               <button className="right-btn" onClick={changeImg} value='change'><BsChevronRight/></button>
