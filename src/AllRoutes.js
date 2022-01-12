@@ -14,7 +14,6 @@ import Chairman from "./components/Editor/Chairman";
 import Vicecanceler from "./components/Editor/Vicecanceler";
 import Editorsmessage from "./components/Editor/Editorsmessage";
 import Associate from "./components/Editor/Associate";
-import Newsfirebase from "./components/firebase/Newsfirebase";
 import Cpaper from "./components/Callforpaper/Cpaper";
 import TAD from "./components/TurnAroundDates/TAD";
 import About from "./components/about/About";
@@ -23,8 +22,6 @@ import Booksubmission from "./components/submissions/Booksubmission";
 import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
 import UploadVolume from "./components/admin/UploadVolume";
-// import Chairman from "./components/Editor/Chairman";
-// import Vicecanceler from "./components/Editor/Vicecanceler";
 
 const AllRoutes = () => {
   const [showSideBar, setShowSideBar] = useState(true);
@@ -33,7 +30,6 @@ const AllRoutes = () => {
       <Router>
         <Header />
         <div className="respo">
-          {/* style={{ display: "flex", paddingLeft: "70px", paddingRight: "70px" }} */}
 
           <Routes>
             <Route path="/" element={<Home />} />

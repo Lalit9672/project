@@ -29,6 +29,7 @@ const Mainnavbar = (props) => {
             >
               <FaHome />
             </Link>
+
             <Link
               id="about"
               className="header-about"
@@ -51,12 +52,12 @@ const Mainnavbar = (props) => {
             >
               ContactUs{" "}
             </Link>
-            {/* <i className="searcgh"><FaSearch/></i>  */}
+
           </div>
 
           <div className="seacrh-icon" onClick={() => setSearch(!isSearch)}>
             {isSearch ? (
-              <i className="searcgh">
+              <i className="search">
                 <FaTimes />
               </i>
             ) : (
@@ -84,11 +85,14 @@ const Mainnavbar = (props) => {
         <div
           className={isSearch ? "nav-link-search" : "search"}
           onClick={() => setSearch(true)}
+          onMouseLeave={()=> setSearch(false)}
         >
-          <form>
-            <input type="text" placeholder="Search.." name="search" />
-            <button type="submit">Submit</button>
+        <div className="sr">
+          <form className="main-search">
+            <input type="text" placeholder="Search..." name="search" autoComplete="off" className="inpt"/>
+            <button type="submit" className="sub-btn">Submit</button>
           </form>
+          </div>
         </div>
       </div>
     </>
