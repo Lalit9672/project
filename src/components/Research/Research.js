@@ -2,7 +2,7 @@ import React from 'react';
 
 const  Research  = ()  => {
 return (
-            <table style="width:100%">
+            <table>
                 <tr>
                     <th> Faculty Name </th>
                     <td> <b>Subject</b> </td>

@@ -5,8 +5,12 @@ import { AboutusDropdown, navItems } from "./Navitems";
 import Dropdown from "./Dropdown";
 import Guidlinesdrop from "./Guidlinesdrop";
 import Volumedrop from "./Volumedrop";
+
+import { collection, query, where, onSnapshot } from "firebase/firestore";
 import Editordrop from "./Editordrop";
+import { getStorage, ref, listAll } from "firebase/storage";
 import { FaAngleDown, FaAlignJustify, FaTimes } from "react-icons/fa";
+import { db } from "../../../firebase";
 
 const Navbar = () => {
   const [width, setWidth] = useState(window.innerWidth);
@@ -14,11 +18,26 @@ const Navbar = () => {
   const [guidlinesdrop, setGuidline] = useState(false);
   const [volume, setVolume] = useState(false);
   const [editor, setEditor] = useState(false);
+  const [year, setYears] = useState([]);
   const [isMobileView, setIsMobileView] = useState(false);
 
   window.addEventListener("resize", () => {
     setWidth(window.innerWidth);
   });
+
+  useEffect(() => {
+    const q = query(collection(db, "folders"));
+    const unsubscribe = onSnapshot(q, (querySnapshot) => {
+      const array = [];
+      querySnapshot.forEach((doc) => {
+        array.push(doc.id);
+      });
+      setYears(array);
+    });
+    return () => {
+      unsubscribe();
+    };
+  }, []);
   return (
     <>
       <nav
@@ -88,7 +107,9 @@ const Navbar = () => {
                       </i>
                     )}
                   </Link>
-                  {!isMobileView && volume && <Volumedrop />}
+                  {!isMobileView && volume && year.length > 0 && (
+                    <Volumedrop year={year} />
+                  )}
                 </li>
               );
 
