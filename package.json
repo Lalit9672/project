@@ -20,14 +20,11 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-iframe": "^1.8.0",
+    "react-pdf": "^5.6.0",
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
-    "react-simple-image-slider": "^2.3.0",
     "styled-components": "^5.3.3",
-    "web-vitals": "^2.1.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
+    "web-vitals": "^2.1.2",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

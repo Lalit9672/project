@@ -3,6 +3,7 @@ import "./respo.css";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import Header from "./components/header/Header";
 import Home from "./components/home/Home";
+import Research from './components/Research/Research'
 import Footer from "./components/footer/Footer";
 import Introduction from "./components/about/Introduction";
 import Objectives from "./components/about/Objectives";
@@ -22,6 +23,9 @@ import Booksubmission from "./components/submissions/Booksubmission";
 import Guidlinesub from "./components/submissions/Guidlinesub";
 import AddNews from "./components/admin/AddNews";
 import UploadVolume from "./components/admin/UploadVolume";
+import Volumes from "./components/pdffile/Volumes";
+// import Chairman from "./components/Editor/Chairman";
+// import Vicecanceler from "./components/Editor/Vicecanceler";
 
 const AllRoutes = () => {
   const [showSideBar, setShowSideBar] = useState(true);
@@ -80,19 +84,24 @@ const AllRoutes = () => {
             <Route path="/firebase" element={<Home />} />
 
             <Route path="/Aim/Aim" element={<Aim />} />
+
+            <Route path="/Research/Research" element={<Research />}></Route>
             <Route
               path="/submission/Booksubmission"
               element={<Booksubmission />}
             />
             <Route path="/submission/Guidlinesub" element={<Guidlinesub />} />
-            <Route path="/admin/create/new" element={<AddNews />} />
+
             <Route />
             <Route
               setShowSideBar={setShowSideBar}
               path="/turnaround/TAD"
               element={<TAD setShowSideBar={setShowSideBar} />}
             />
+            {/* Admin */}
             <Route path="/add/volume" element={<UploadVolume />} />
+            <Route path="/view/file/:docid/:index" element={<Volumes />} />
+            <Route path="/admin/create/new" element={<AddNews />} />
           </Routes>
           {showSideBar && <Sidebar />}
         </div>

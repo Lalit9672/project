@@ -53,5 +53,7 @@
     flex-direction: column;
     justify-content: flex-start;
   }
-
+  .editer{
+    margin-left: 1px;
+  }
 }

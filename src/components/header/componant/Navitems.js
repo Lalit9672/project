@@ -53,7 +53,7 @@ export const navItems = [
       {
         id:9 ,
         title: "Resesach papers",
-        path: "./papers",
+        path: "./Research/Research",
         cName: "nav-item",
       },
       {

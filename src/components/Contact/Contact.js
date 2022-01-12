@@ -23,20 +23,20 @@ const Contact = ({ google, onMarkerClick }) => {
           <td>
           <strong>
             <span className="name-head">
-              Editor, Journal of Indian Research
+              Editor, Aravali Journal of Technical Research
             </span>
           </strong>
           <br />
           <strong>Office Address: </strong>
-              Sector-4C, vasundhara
+              Umarda
               <br />
-              Delhi-Ghaziabad Link Road, Ghaziabad-201012
+              Udaipur, Rajashthan-343002
               <br />
-              Phone: 01220-4758300
+              Phone: 020-47xxxxx0
               <br />
-              Email: jir@mewaruniversity.org
+              Email: ajtr@aravalicollege.org
               <br />
-              Website: https://jir.mewaruniversity.org
+              Website: https://aravalicollege.org
             </td>
           <td>
           <strong>
@@ -45,12 +45,12 @@ const Contact = ({ google, onMarkerClick }) => {
             </span>
                </strong>
                   <br />
-                  Phone: 9513105532
+                  Phone: 951xxxxxx
                   <br />
-                  Fax: 01471-285451/52
+                  Fax: 01471-2xxxxx1/52
                   <br />
                   Toll-Free No.:
-              <strong>180030707373</strong>
+              <strong>180030xxxxxx3</strong>
                   <br />
                 </td>
               </tr>
@@ -64,37 +64,35 @@ const Contact = ({ google, onMarkerClick }) => {
                       <br />
                       Director
                       <br />
-                      Journal of Indian Research (JIR)
-                      <br />
                       Aravali Institue of technical studies
                       <br />
                       Rajasthan, INDIA
                       <br />
                       Mobile:
-                  <strong>+91 900 143 3127</strong>
+                  <strong>+91 900 xxx xx27</strong>
                       <br />
                       Toll-Free No,:
-                  <strong>180030707373</strong>
+                  <strong>180030xxxxx</strong>
                       </td>
                       <td>
                   <strong>
                     <span className="name-head">
-                      Mr. Sayad Nasir Hasan
+                      Dr. Jitendra Singh Chouhan
                     </span>
                   </strong>
                       <br />
                       Coordinator
                       <br />
-                      Journal of Indian Research (JIR)
+                      Aravali Journal of Technical Research (AJTR)
                       <br />
-                      Mewar University, NH-79, Gangrar, Chittorgarh
+                      AITS Umarda, Udaipur
                       <br />
                       Rajasthan, INDIA
                       <br />
-                      Mobile: +91 982 941 5959
+                      Mobile: +91 982 xxx xx59
                       <br />
                       Email :
-                  <strong>sayednasir@mewaruniversity.co.in</strong>
+                  <strong>jitxxxxxxxx@gmail.com</strong>
                       </td>
                     </tr>
                   </tbody>
@@ -107,7 +105,7 @@ const Contact = ({ google, onMarkerClick }) => {
                     <Map
                       google={google}
                       zoom={14}
-                      style={{ width: "100%", height: "400px" }}
+                      // style={{ width: "auto", height: "400px" }}
                       center={{
                         lat: 24.524552,
                         lng: 73.770393,
