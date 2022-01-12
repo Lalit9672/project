@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './uploadvolume.css'
 import { v4 as uuidv4 } from "uuid";
 import {
   arrayUnion,
@@ -46,8 +47,8 @@ const UploadVolume = () => {
     });
   };
   return (
-    <div>
-      <input
+    <div className="main-volume">
+      <input className="inp"
         type="file"
         onChange={onHandleChange}
         placeholder="Select Input File"

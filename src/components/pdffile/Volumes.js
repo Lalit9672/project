@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
 import { useParams } from "react-router-dom";
 import { db } from "../../firebase";
+import "./pdf.css";
 
 const Volumes = (props) => {
   const [file, setFile] = useState();
@@ -39,11 +40,13 @@ const Volumes = (props) => {
   };
 
   return (
+    <div className="main-pdf">
     <div>
       <Document file={url} onLoadSuccess={onDocumentLoadSuccess}>
         <Page pageNumber={1} />
       </Document>
       <button onClick={() => downloadFile()}>Download PDF</button>
+    </div>
     </div>
   );
 };
