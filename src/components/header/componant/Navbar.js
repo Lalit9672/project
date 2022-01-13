@@ -88,7 +88,7 @@ const Navbar = () => {
                 );
               });
             }
-            if (item.title === "issue of our journel")
+            if (item.title === "Issue of our journel")
               return (
                 <li
                   key={item.id}

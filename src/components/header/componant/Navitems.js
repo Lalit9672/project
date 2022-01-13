@@ -16,8 +16,8 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "issue of our journel",
-      path: "./products",
+      title: "Issue of our journel",
+      path: "./pdffile/Volumes",
       cName: "nav-item",
     },
     {
@@ -99,11 +99,11 @@ export const Guidlinesdropdown = [
     cName: "submenu-item",
   },
 ];
-export const issueDropdown = [
+export const IssueDropdown = [
   {
     id: 1,
-    title: "upload volume",
-    path: "./firebase/Newsfirebase",
+    title: "Upload volume",
+    path: "./pdffile/Volumes",
     cName: "submenu-item",
   },
 ];
@@ -117,32 +117,32 @@ export const editorDropdown = [
   },
   {
     id: 2,
-    title: "chaireperson's message",
+    title: "Patron's message",
     path: "./Editor/chairepersons-message",
     cName: "submenu-item",
   },
   {
     id: 3,
-    title: "message of ethical committee chairman",
+    title: "Message of Secretary",
     path: "./Editor/message-of-ethical-committee-chairman",
     cName: "submenu-item",
   },
   {
     id: 4,
-    title: "editors message",
+    title: "Director's Message",
     path: "./Editor/editors-message",
     cName: "submenu-item",
   },
   {
     id: 5,
-    title: "associate editors message",
+    title: "Editor's Message",
     path: "./Editor/associate-editors-message",
     cName: "submenu-item",
   },
-  {
-    id: 6,
-    title: "Development",
-    path: "./development",
-    cName: "submenu-item",
-  },
+  // {
+  //   id: 6,
+  //   title: "Development",
+  //   path: "./development",
+  //   cName: "submenu-item",
+  // },
 ];

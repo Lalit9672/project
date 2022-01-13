@@ -15,17 +15,17 @@ const Cpaper = () => {
       </p>
       <br />
       <p>
-        Journal of Indian Research (JIR) solicits original and unpublished
-        research papers for its July-December , 2020 issue (JIR, Volume 8, issue
-        3-4 ). Please send your Research paper at{" "}
+      Aravali Journal of Technical Research (AJTR) solicits original and unpublished
+        research papers for its current issue (AJTR, Volume 1, issue
+        1 ). Please send your Research paper at{" "}
         <a
           rel="nonreferrer nooperner"
-          href="mailto:jir@mewaruniversity.org"
+          href="mailto:ajtr@aravalicollege.org"
           target="_blank"
         >
-          jir@mewaruniversity.org
+          ajtr@aravalicollege.org
         </a>{" "}
-        , latest by 15 April 2021
+        , latest by 15 January 2022
       </p>
       <br />
       <p>
@@ -35,7 +35,7 @@ const Cpaper = () => {
       </p>
       <br />
       <p>
-        Journal of Indian Research invites proposals for Special Forums in
+      Aravali Journal of Technical Research invites proposals for Special Forums in
         upcoming issues. Each Special Forum will be a cluster of articles on a
         critical issue presented by various scholars from around the world.
       </p>
@@ -50,7 +50,7 @@ const Cpaper = () => {
       <p>
         If the Special Forum proposal is accepted, the forum’s guest editors
         will send out the call for papers, field all submission queries, and
-        follow Journal of Indian Research procedures for a peer review process.
+        follow Aravali Journal of Technical Research procedures for a peer review process.
       </p>
       <br />
       <p>
@@ -60,11 +60,11 @@ const Cpaper = () => {
       </p>
       <br />
       <p>
-        Authors retain copyright for all content published in Journal of Indian
-        Research. However, the journal shall have the right to make available
+        Authors retain copyright for all content published in Aravali Journal of Technical Research.
+         However, the journal shall have the right to make available
         such content, in any format, in perpetuity. Authors may reproduce, in
         other contexts, content to which they possess the copyright, although in
-        any subsequent publications, Journal of Indian Research should be
+        any subsequent publications, Aravali Journal of Technical Research should be
         acknowledged as the original publisher.
       </p>
       <br />

@@ -41,9 +41,11 @@ const Volumes = (props) => {
   };
 
   return (
-    <div>
-      {url && <iframe style={{ width: 200, height: 200 }} src={url} />}
-      <button onClick={() => downloadFile()}>Download PDF</button>
+    <div className="main-pdf">
+      <div>
+        {url && <iframe style={{ width: 200, height: 200 }} src={url} />}
+        <button onClick={() => downloadFile()}>Download PDF</button>
+      </div>
     </div>
   );
 };
